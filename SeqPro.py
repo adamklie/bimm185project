@@ -36,7 +36,7 @@ if args.reference is None:
 	else:
 		print("unrecognizable pair type, exiting...")
 		sys.exit()
-
+"""
 #reference based assembly with reference given
 else:
 	print("reference given, performing reference based assembly")
@@ -50,12 +50,18 @@ else:
 	else:
 		print("performing paired end alignment")
 		subprocess.call(["bwa", "mem", args.reference, args.fastq1, args.fastq2], stdout=samfile, stderr=log)
-	subprocess.call("rm " + args.reference + ".*", shell=True)
 
 #convert to bam and sort
 bamfile = open("alignment.bam", "w")
 subprocess.call(["samtools", "view", "-S", "-b", "alignment.sam"], stdout=bamfile, stderr=log)
 subprocess.call("samtools sort alignment.bam alignment_sorted", shell=True, stderr=log)
 subprocess.call(["samtools", "index", "alignment_sorted.bam"], stderr=log) 
+"""
 
+#pileup reads at positions
+fastqfile = open("consensus_alignment.fq", "w")
+p = subprocess.Popen("samtools mpileup -uf " + args.reference + " alignment_sorted.bam | bcftools view -cg - | vcfutils.pl vcf2fq", shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE) 
+fastqfile.write(p.stdout.read())
+log.write(p.stderr.read())
 
+#subprocess.call("rm " + args.reference + ".*", shell=True)
