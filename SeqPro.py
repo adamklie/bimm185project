@@ -43,7 +43,7 @@ else:
 	subprocess.call(["bwa", "index", args.reference], stderr=log)
 	samfile = open("alignment.sam", "w")
 
-#alignment step
+	#alignment step
 	if not pair:
 		print("performing single end alingment")
 		subprocess.call(["bwa", "mem", args.reference, args.fastq1], stdout=samfile, stderr=log)
@@ -51,17 +51,23 @@ else:
 		print("performing paired end alignment")
 		subprocess.call(["bwa", "mem", args.reference, args.fastq1, args.fastq2], stdout=samfile, stderr=log)
 
+samfile.close()
+
 #convert to bam and sort
 bamfile = open("alignment.bam", "w")
 subprocess.call(["samtools", "view", "-S", "-b", "alignment.sam"], stdout=bamfile, stderr=log)
+bamfile.close()
 subprocess.call("samtools sort alignment.bam alignment_sorted", shell=True, stderr=log)
 subprocess.call(["samtools", "index", "alignment_sorted.bam"], stderr=log) 
-"""
 
-#pileup reads at positions
+#pileup reads at positions and generate fasta, need intermediate fastq with this pipeline
 fastqfile = open("consensus_alignment.fq", "w")
 p = subprocess.Popen("samtools mpileup -uf " + args.reference + " alignment_sorted.bam | bcftools view -cg - | vcfutils.pl vcf2fq", shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE) 
 fastqfile.write(p.stdout.read())
 log.write(p.stderr.read())
+fastqfile.close()
 
+subprocess.call(["seqret", "-osformat", "fasta", "consensus_alignment.fq", "-out2", "consensus_alignment.fa"], stderr=log) 
+"""
+subprocess.call(["prokka", "consensus_alignment.fa", "--rnammer"), stderr=log]
 #subprocess.call("rm " + args.reference + ".*", shell=True)
