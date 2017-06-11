@@ -78,5 +78,9 @@ fastqfile.close()
 
 subprocess.call(["seqret", "-osformat", "fasta", "consensus_alignment.fq", "-out2", "consensus_alignment.fa"], stderr=log) 
 subprocess.call(["prokka", "consensus_alignment.fa", "--rnammer"), stderr=log]
+
 """
+#further annotating and pulling sequences
+
+# delete the ish
 #subprocess.call("rm " + args.reference + ".*", shell=True)

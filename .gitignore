@@ -1,6 +1,14 @@
 # Raw data files and databases
 raw_reads/
 databases/
+test_reads/
+references/
+velvet_out/
+*.fq
+*.fa
+*.sam*
+*.bam*
+log.txt
 
 # This thing
 .DS_Store
