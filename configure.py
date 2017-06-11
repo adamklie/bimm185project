@@ -1,11 +1,18 @@
 import os
 
-db_type = "nucl" 
-resistance_db  = "makeblastdb -in /home/adamklie/BIMM185/project/new_tool/bimm185project/databases/all_resistance.fsa -dbtype " + db_type
-virulence_db = "makeblastdb -in /home/adamklie/BIMM185/project/new_tool/bimm185project/databases/all_virulence.fsa -dbtype " + db_type
-serotype_db = "makeblastdb -in /home/adamklie/BIMM185/project/new_tool/bimm185project/databases/all_serotype.fsa -dbtype " + db_type
-plasmid_db = "makeblastdb -in /home/adamklie/BIMM185/project/new_tool/bimm185project/databases/all_plasmid.fsa -dbtype " + db_type
+n_type = "nucl" 
+p_type = "prot"
+resistance_db  = "makeblastdb -in /home/adamklie/BIMM185/project/new_tool/bimm185project/databases/all_resistance.fsa -dbtype " + n_type
+virulence_db = "makeblastdb -in /home/adamklie/BIMM185/project/new_tool/bimm185project/databases/all_virulence.fsa -dbtype " + n_type
+serotype_db = "makeblastdb -in /home/adamklie/BIMM185/project/new_tool/bimm185project/databases/all_serotype.fsa -dbtype " + n_type
+plasmid_db = "makeblastdb -in /home/adamklie/BIMM185/project/new_tool/bimm185project/databases/all_plasmid.fsa -dbtype " + n_type
+prophage_db = "makeblastdb -in /home/adamklie/BIMM185/project/new_tool/bimm185project/databases/prophage_virus.db -dbtype " + p_type
+rnammer_db = "makeblastdb -in /home/adamklie/BIMM185/project/new_tool/bimm185project/databases/rnammer.fsa -dbtype " + n_type
+rnammer_hmm = "hmmpress /home/adamklie/BIMM185/project/new_tool/bimm185project/databases/rnammer.hmm"
 os.system(resistance_db)
 os.system(virulence_db)
 os.system(serotype_db)
 os.system(plasmid_db)
+os.system(prophage_db)
+os.system(rnammer_db)
+os.system(rnammer_hmm)
