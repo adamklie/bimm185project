@@ -2,7 +2,10 @@
 import MySQLdb
 from collections import defaultdict
 
-def mediaQuery(strain):
+def mediaQuery(strain, filename):
+	print(strain)
+	strain = strain.replace("\'", "")
+
 	db = MySQLdb.connect(host="localhost",    # your host, usually localhost
 			     user="root",         # your username
 			     passwd="doubleateam",  # your password
@@ -19,7 +22,7 @@ def mediaQuery(strain):
 
 	# If strain not found
 	if not cur.rowcount:
-		return(-1)	
+		return(0)	
 		
 
 	# Holds all results
@@ -116,32 +119,32 @@ def mediaQuery(strain):
 
 
 	# Print results
-	print ("Organism: {} {} {}".format(genus, species, strain))
-	print ("Has Model? {}\n".format(hasModel))
-	print ("{} Growth Conditions Found:\n".format(len(medIDList)))
+	filename.write("Organism: {} {} {}\n".format(genus, species, strain))
+	filename.write("Has Model? {}\n\n".format(hasModel))
+	filename.write("{} Growth Conditions Found:\n\n".format(len(medIDList)))
 	i = 0
 	for id in medIDList:
-		print ("Medium: {}".format(mediaNamesList[i]))
+		filename.write("Medium: {}\n".format(mediaNamesList[i]))
 		if isMinimalList[i]:
-			print ("Medium is minimal? Yes")
+			filename.write("Medium is minimal? Yes\n")
 		else:
-			print("Medium is minimal? No")
-		print ("In-depth Medium Details:")
+			filename.write("Medium is minimal? No\n")
+		filename.write("In-depth Medium Details:\n")
 		for compName, compAmount in zip(compoundNameDict[id], compoundAmountDict[id]):
-			print ("\tCompound: {}\tAmount: {} mM".format(compName, compAmount))
-		print ("Growth Data on Medium:")
-		print ("\tGrowth Rate: {} {}".format(growth_RateList[i], growth_UnitsList[i]))
-		print ("\tpH: {}".format(pHList[i]))
-		print ("\tTemperature: {} C".format(temperature_CList[i]))
-		print ("\tAdditional Notes: {}".format(additional_NotesList[i]))
-		print ("Source Info:")
-		print ("\tAuthor: {} Et al, {}".format(sourceAuthorList[i], sourceYearList[i]))
-		print ("\tJournal: {}".format(sourceJournalList[i]))
-		print ("\tPubmed ID: {}".format(sourcePubMedIDList[i]))
-		print ("\tLink: {}".format(sourceLinkList[i]))
-		print ('')
+			filename.write("\tCompound: {}\tAmount: {} mM\n".format(compName, compAmount))
+		filename.write("Growth Data on Medium:\n")
+		filename.write("\tGrowth Rate: {} {}\n".format(growth_RateList[i], growth_UnitsList[i]))
+		filename.write("\tpH: {}\n".format(pHList[i]))
+		filename.write("\tTemperature: {} C\n".format(temperature_CList[i]))
+		filename.write("\tAdditional Notes: {}\n".format(additional_NotesList[i]))
+		filename.write("Source Info:\n")
+		filename.write("\tAuthor: {} Et al, {}\n".format(sourceAuthorList[i], sourceYearList[i]))
+		filename.write("\tJournal: {}\n".format(sourceJournalList[i]))
+		filename.write("\tPubmed ID: {}\n".format(sourcePubMedIDList[i]))
+		filename.write("\tLink: {}\n".format(sourceLinkList[i]))
+		filename.write('\n')
 
 		i += 1
 
 	db.close()
-	return(0)
+	return(1)

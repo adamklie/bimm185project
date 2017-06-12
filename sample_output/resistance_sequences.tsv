@@ -1,0 +1,9 @@
+Hit	E-Value	Contig	PROKKA Annotation
+blaTEM-1B_1_JF910132	0.0	PDMBHFNK_00616	Beta-lactamase TEM
+strA_5_AF321550	4.25371e-159	PDMBHFNK_01623	Aminoglycoside 3'-phosphotransferase
+strB_1_M96392	0.0	PDMBHFNK_01624	hypothetical protein
+catB4_1_EU935739	1.62523e-22	PDMBHFNK_01694	hypothetical protein
+dfrA7_1_JF806498	0.0	PDMBHFNK_02875	Dihydrofolate reductase type 1
+sul1_3_EU855787	1.63025e-44	PDMBHFNK_02876	Multidrug transporter EmrE
+blaCTX-M-15_23_DQ302097	0.0	PDMBHFNK_03985	Beta-lactamase CTX-M-1
+sul2_20_AJ830710	0.0	PDMBHFNK_04799	hypothetical protein

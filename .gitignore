@@ -1,14 +1,10 @@
 # Raw data files and databases
-raw_reads/
-databases/
-tests/
-references/
-velvet_out/
-*.fq
-*.fa
+ecoliX/
+experimental_data/
+PROKKA*/
+*.xml
 *.sam*
 *.bam*
-log.txt
 
 # This thing
 .DS_Store
