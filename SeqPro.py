@@ -106,10 +106,14 @@ if rna_16S is not None:
 	#finding the best media
 	print("Detecting suggested media")
 	mediafile = open("./output/suggested_media.txt", "w")
+	foundMedia = False
 	for strain_id in rna_16S_ids:
 		media = mediaQuery.mediaQuery(strain_id, mediafile)
 		if media == 1:
+			foundMedia = True
 			break	
+	if foundMedia == False:
+		mediafile.write("No media data for closest relatives found in MediaDB.\nNOTE: This has been caused by occasional incompatible naming schemes of closest relatives (e.g. K12 vs. K-12) and inconsistent results returned from the 16S rRNA database.\nWe are working to resolve this issue.")
 	mediafile.close()
 else:
 	print("Could not find a closest relative, will not output media")
