@@ -10,7 +10,7 @@ SeqPro requires:
 -Velvet  
 -BWA-mem  
 -BLAST  
--MySQL loaded with MediaDB  
+-MySQL loaded with MediaDB (Note: User must change the MySQL db user, password, and database to match their local machine's)
 -CGE's ResFinder, VirulenceFinder, PlasmidFinder, SerotypeFinder Databases  
 -CBA's 16S rRNA Database  
 -samtools
