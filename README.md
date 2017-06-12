@@ -13,6 +13,7 @@ SeqPro requires:
 -MySQL loaded with MediaDB  
 -CGE's ResFinder, VirulenceFinder, PlasmidFinder, SerotypeFinder Databases  
 -CBA's 16S rRNA Database  
+-samtools
 
 # Setting Up SeqPro
 python configure.py
