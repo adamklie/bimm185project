@@ -1,0 +1,30 @@
+Organism: Escherichia coli K-12
+Has Model? 1
+
+1 Growth Conditions Found:
+
+Medium: Glucose minimal media; Shehata et al
+Medium is minimal? Yes
+In-depth Medium Details:
+	Compound: D-Glucose	Amount: 11.1012 mM
+	Compound: L-Methionine	Amount: 0.26807 mM
+	Compound: Thymine	Amount: 0.031717 mM
+	Compound: Magnesium chloride	Amount: 0.983719 mM
+	Compound: Calcium chloride anhydrous	Amount: 0.0901024 mM
+	Compound: Potassium dibasic phosphate	Amount: 48.7944 mM
+	Compound: Sodium sulfate	Amount: 1.40805 mM
+	Compound: Potassium chloride	Amount: 13.4136 mM
+	Compound: Potassium dihydrogen phosphate	Amount: 30.8628 mM
+	Compound: Ammonium chloride	Amount: 14.0211 mM
+	Compound: Ferrous sulfate	Amount: 0.0017982 mM
+Growth Data on Medium:
+	Growth Rate: 0.562 1/h
+	pH: None
+	Temperature: 37.0 C
+	Additional Notes: doubling time
+Source Info:
+	Author: Shehata Et al, 1970
+	Journal: Journal of bacteriology
+	Pubmed ID: 4919993
+	Link: http://jb.asm.org/cgi/content/abstract/103/3/789
+

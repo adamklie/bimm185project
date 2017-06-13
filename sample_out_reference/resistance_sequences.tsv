@@ -1,0 +1,15 @@
+Hit	E-Value	Contig	PROKKA Annotation
+oqxB_1_EU370913	9.54605e-16	HGGFENPE_04045	Multidrug resistance protein MdtF
+aadA1_1_X02340	2.40485e-07	HGGFENPE_04208	Tyrosine recombinase XerD
+dfrA7_1_JF806498	0.0	HGGFENPE_04209	Dihydrofolate reductase type 1
+sul1_3_EU855787	1.63025e-44	HGGFENPE_04210	Multidrug transporter EmrE
+sul1_22_AY115475	0.0	HGGFENPE_04211	Dihydropteroate synthase
+catB4_1_EU935739	1.62523e-22	HGGFENPE_04212	hypothetical protein
+blaTEM-1B_1_JF910132	0.0	HGGFENPE_04214	Beta-lactamase TEM
+catB4_1_EU935739	1.62523e-22	HGGFENPE_04215	hypothetical protein
+sul2_3_HQ840942	0.0	HGGFENPE_04218	Dihydropteroate synthase
+strA_4_AF321551	0.0	HGGFENPE_04219	Aminoglycoside 3'-phosphotransferase
+strB_1_M96392	0.0	HGGFENPE_04220	hypothetical protein
+catB4_1_EU935739	1.62523e-22	HGGFENPE_04221	hypothetical protein
+tet(A)_4_AJ517790	0.0	HGGFENPE_04235	Tetracycline resistance protein, class C
+blaMIR-2_1_AY227752	1.90084e-73	HGGFENPE_04810	Beta-lactamase

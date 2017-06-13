@@ -3,7 +3,6 @@ import MySQLdb
 from collections import defaultdict
 
 def mediaQuery(strain, filename):
-	print(strain)
 	strain = strain.replace("\'", "")
 
 	db = MySQLdb.connect(host="localhost",    # your host, usually localhost

@@ -1,0 +1,18 @@
+Hit	E-Value	Contig	PROKKA Annotation
+stx2A:70:AY143336:a	0.0	HGGFENPE_01093	Shiga toxin subunit A
+stx2B:27:AE005174:a	1.9843e-142	HGGFENPE_01094	Shiga toxin subunit B
+iha:12:CP003289	0.0	HGGFENPE_01163	Colicin I receptor
+mchB:1:AE014075	2.99053e-20	HGGFENPE_01177	Microcin H47 immunity protein MchI
+mchB:1:AE014075	8.52381e-32	HGGFENPE_01178	hypothetical protein
+mchC:5:CP003289	0.0	HGGFENPE_01179	hypothetical protein
+mchF:3:CP003301	0.0	HGGFENPE_01182	Leukotoxin export ATP-binding protein LtxB
+gad:39:CP003297	0.0	HGGFENPE_01709	Glutamate decarboxylase beta
+pic:2:CP003289	0.0	HGGFENPE_03424	Serine protease pic autotransporter
+clpc:1:NC_003210.1	1.87273e-07	HGGFENPE_03428	Chaperone protein ClpB
+aaiC:3:cp003301	0.0	HGGFENPE_03441	hypothetical protein
+gad:14:CP003297	0.0	HGGFENPE_04049	Glutamate decarboxylase alpha
+lpfA:6:CU928145	0.0	HGGFENPE_04335	Type-1 fimbrial protein, A chain
+pic:2:CP003289	0.0	HGGFENPE_04773	Serine protease pic autotransporter
+sigA:2:AE005674	0.0	HGGFENPE_04786	Serine protease pet autotransporter
+sigA:2:AE005674	1.02219e-06	HGGFENPE_04786	Serine protease pet autotransporter
+capU:5:CU928145	0.0	HGGFENPE_04965	D-inositol 3-phosphate glycosyltransferase

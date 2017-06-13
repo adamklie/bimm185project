@@ -1,0 +1,2046 @@
+[bwa_index] Pack FASTA... 0.19 sec
+[bwa_index] Construct BWT for the packed sequence...
+[bwa_index] 5.20 seconds elapse.
+[bwa_index] Update BWT... 0.11 sec
+[bwa_index] Pack forward-only FASTA... 0.09 sec
+[bwa_index] Construct SA from BWT and Occ... 2.42 sec
+[main] Version: 0.7.5a-r405
+[main] CMD: bwa index ecoliX/ecoliX.fasta
+[main] Real time: 8.283 sec; CPU: 8.047 sec
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (1, 50450, 1, 1)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 478)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (424, 514)
+[M::mem_pestat] mean and std.dev: (468.51, 14.00)
+[M::mem_pestat] low and high boundaries for proper pairs: (406, 532)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6055 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 50517, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.43, 13.80)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6035 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 50404, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.50, 13.85)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6307 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (2, 50414, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.54, 13.77)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6216 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (1, 50415, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 478)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (424, 514)
+[M::mem_pestat] mean and std.dev: (468.47, 14.00)
+[M::mem_pestat] low and high boundaries for proper pairs: (406, 532)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6374 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (2, 50476, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.52, 13.82)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6098 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 50391, 1, 2)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.39, 13.80)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6188 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 50418, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 478)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (424, 514)
+[M::mem_pestat] mean and std.dev: (468.34, 14.09)
+[M::mem_pestat] low and high boundaries for proper pairs: (406, 532)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6006 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 50448, 1, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.52, 13.85)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6219 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (1, 50435, 2, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.42, 13.79)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6216 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 50433, 1, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.42, 13.85)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6596 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (1, 50407, 2, 1)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.44, 13.86)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6074 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (1, 50363, 2, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.39, 13.96)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6333 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 50578, 1, 1)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.42, 13.83)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6023 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (1, 50368, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.44, 13.86)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6349 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 50290, 2, 1)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.41, 13.91)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6270 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 50292, 0, 2)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.41, 13.87)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6756 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (2, 50379, 1, 1)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.48, 13.82)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6221 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 50491, 0, 1)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 478)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (424, 514)
+[M::mem_pestat] mean and std.dev: (468.41, 14.06)
+[M::mem_pestat] low and high boundaries for proper pairs: (406, 532)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6296 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 50244, 2, 3)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.52, 13.83)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6373 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 50470, 1, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.41, 13.85)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6359 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 50317, 0, 1)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.48, 13.82)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6519 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 50298, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.33, 13.89)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6439 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (1, 50323, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 478)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (424, 514)
+[M::mem_pestat] mean and std.dev: (468.43, 14.04)
+[M::mem_pestat] low and high boundaries for proper pairs: (406, 532)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6395 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 50361, 1, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.40, 13.70)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6372 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (1, 50453, 1, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.50, 13.83)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6537 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (1, 50539, 2, 1)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 478)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (424, 514)
+[M::mem_pestat] mean and std.dev: (468.45, 13.98)
+[M::mem_pestat] low and high boundaries for proper pairs: (406, 532)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6256 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (1, 50350, 1, 2)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.42, 13.83)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6711 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 50466, 2, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.49, 13.83)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6308 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (1, 50451, 1, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.49, 13.82)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6337 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 50372, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 478)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (424, 514)
+[M::mem_pestat] mean and std.dev: (468.42, 14.03)
+[M::mem_pestat] low and high boundaries for proper pairs: (406, 532)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6620 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (1, 50337, 0, 1)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.35, 13.97)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6664 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 50475, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.42, 13.87)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6531 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (3, 50419, 1, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 478)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (424, 514)
+[M::mem_pestat] mean and std.dev: (468.41, 14.01)
+[M::mem_pestat] low and high boundaries for proper pairs: (406, 532)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6606 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (1, 50325, 1, 1)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.39, 13.92)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6392 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (3, 50569, 1, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.38, 13.87)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6393 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (1, 50444, 2, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.40, 13.90)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6198 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (2, 50421, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.40, 13.93)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6757 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 50494, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.45, 13.86)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6378 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 50389, 1, 1)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.39, 13.87)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6486 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 50470, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.36, 13.86)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6410 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (1, 50422, 1, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.31, 13.81)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6695 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (1, 50481, 1, 1)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.45, 13.77)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6484 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 50364, 2, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.44, 13.82)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6808 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 50329, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.39, 13.85)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6668 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 50342, 1, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.40, 13.81)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6763 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 50454, 0, 1)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 478)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (424, 514)
+[M::mem_pestat] mean and std.dev: (468.36, 14.05)
+[M::mem_pestat] low and high boundaries for proper pairs: (406, 532)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6239 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (1, 50376, 1, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.40, 13.89)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6568 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (1, 50381, 0, 1)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.42, 13.84)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6364 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 50394, 2, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 478)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (424, 514)
+[M::mem_pestat] mean and std.dev: (468.43, 14.03)
+[M::mem_pestat] low and high boundaries for proper pairs: (406, 532)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6526 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 50254, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 478)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (424, 514)
+[M::mem_pestat] mean and std.dev: (468.40, 14.07)
+[M::mem_pestat] low and high boundaries for proper pairs: (406, 532)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6560 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (1, 50481, 2, 2)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.47, 13.82)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6276 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 50407, 1, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 478)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (424, 514)
+[M::mem_pestat] mean and std.dev: (468.47, 14.04)
+[M::mem_pestat] low and high boundaries for proper pairs: (406, 532)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6485 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (1, 50455, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 478)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (424, 514)
+[M::mem_pestat] mean and std.dev: (468.42, 14.05)
+[M::mem_pestat] low and high boundaries for proper pairs: (406, 532)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6440 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (1, 50524, 1, 1)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 478)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (424, 514)
+[M::mem_pestat] mean and std.dev: (468.68, 14.00)
+[M::mem_pestat] low and high boundaries for proper pairs: (406, 532)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6371 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 50510, 1, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 478)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (424, 514)
+[M::mem_pestat] mean and std.dev: (468.37, 14.04)
+[M::mem_pestat] low and high boundaries for proper pairs: (406, 532)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6216 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 50546, 1, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.48, 13.81)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6124 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (2, 50461, 1, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.40, 13.88)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6242 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 50379, 2, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.41, 13.89)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6271 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (1, 50484, 1, 2)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 478)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (424, 514)
+[M::mem_pestat] mean and std.dev: (468.44, 13.96)
+[M::mem_pestat] low and high boundaries for proper pairs: (406, 532)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6314 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 50488, 3, 2)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.51, 13.83)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6634 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (1, 50495, 0, 1)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 478)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (424, 514)
+[M::mem_pestat] mean and std.dev: (468.34, 14.10)
+[M::mem_pestat] low and high boundaries for proper pairs: (406, 532)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6302 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 50375, 0, 1)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 478)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (424, 514)
+[M::mem_pestat] mean and std.dev: (468.44, 14.04)
+[M::mem_pestat] low and high boundaries for proper pairs: (406, 532)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6470 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (2, 50410, 2, 2)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.52, 13.72)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6353 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 50524, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 478)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (424, 514)
+[M::mem_pestat] mean and std.dev: (468.51, 14.04)
+[M::mem_pestat] low and high boundaries for proper pairs: (406, 532)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6457 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 50442, 0, 1)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 478)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (424, 514)
+[M::mem_pestat] mean and std.dev: (468.37, 14.04)
+[M::mem_pestat] low and high boundaries for proper pairs: (406, 532)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6474 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (1, 50544, 3, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.52, 13.86)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6602 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (3, 50601, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 478)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (424, 514)
+[M::mem_pestat] mean and std.dev: (468.39, 13.99)
+[M::mem_pestat] low and high boundaries for proper pairs: (406, 532)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6605 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 50351, 1, 1)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.40, 13.91)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6709 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 50402, 0, 1)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 478)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (424, 514)
+[M::mem_pestat] mean and std.dev: (468.51, 14.00)
+[M::mem_pestat] low and high boundaries for proper pairs: (406, 532)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6592 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 50328, 2, 1)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.48, 13.95)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6572 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (1, 50248, 1, 1)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 478)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (424, 514)
+[M::mem_pestat] mean and std.dev: (468.48, 14.01)
+[M::mem_pestat] low and high boundaries for proper pairs: (406, 532)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6459 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 50487, 2, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 478)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (424, 514)
+[M::mem_pestat] mean and std.dev: (468.43, 13.96)
+[M::mem_pestat] low and high boundaries for proper pairs: (406, 532)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6320 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (3, 50393, 3, 1)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 478)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (424, 514)
+[M::mem_pestat] mean and std.dev: (468.48, 14.01)
+[M::mem_pestat] low and high boundaries for proper pairs: (406, 532)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6494 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (2, 50399, 2, 1)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.49, 13.84)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6633 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 50374, 1, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.40, 13.84)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6617 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (1, 50299, 1, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 478)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (424, 514)
+[M::mem_pestat] mean and std.dev: (468.38, 14.05)
+[M::mem_pestat] low and high boundaries for proper pairs: (406, 532)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6646 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 50550, 2, 1)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.43, 13.88)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6383 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 50523, 1, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.40, 13.83)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6281 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (2, 50461, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.38, 13.94)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6411 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (1, 50429, 1, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.49, 13.87)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6627 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (1, 50485, 1, 1)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 478)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (424, 514)
+[M::mem_pestat] mean and std.dev: (468.40, 14.07)
+[M::mem_pestat] low and high boundaries for proper pairs: (406, 532)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6566 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (1, 50538, 1, 1)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.49, 13.84)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6597 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (1, 50348, 0, 1)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.45, 13.89)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6689 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 50502, 1, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.43, 13.89)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6494 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 50315, 0, 1)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.46, 13.90)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6898 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 50356, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.37, 13.95)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6729 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 50457, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.45, 13.92)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6522 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 50481, 0, 1)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.45, 13.94)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6441 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (1, 50448, 1, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 478)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (424, 514)
+[M::mem_pestat] mean and std.dev: (468.39, 14.08)
+[M::mem_pestat] low and high boundaries for proper pairs: (406, 532)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6613 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (1, 50349, 0, 1)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.55, 13.78)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6685 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 50457, 1, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.43, 13.88)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6552 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 50394, 1, 2)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 478)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (424, 514)
+[M::mem_pestat] mean and std.dev: (468.49, 14.02)
+[M::mem_pestat] low and high boundaries for proper pairs: (406, 532)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6745 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 50449, 1, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.55, 13.75)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6733 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (2, 50460, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 478)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (424, 514)
+[M::mem_pestat] mean and std.dev: (468.42, 13.99)
+[M::mem_pestat] low and high boundaries for proper pairs: (406, 532)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6393 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 50398, 0, 1)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 478)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (424, 514)
+[M::mem_pestat] mean and std.dev: (468.33, 14.09)
+[M::mem_pestat] low and high boundaries for proper pairs: (406, 532)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6776 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 50408, 1, 1)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 478)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (424, 514)
+[M::mem_pestat] mean and std.dev: (468.32, 14.09)
+[M::mem_pestat] low and high boundaries for proper pairs: (406, 532)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6628 reads
+[M::main_mem] read 111112 sequences (10000080 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (1, 50360, 3, 1)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 478)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (424, 514)
+[M::mem_pestat] mean and std.dev: (468.49, 14.01)
+[M::mem_pestat] low and high boundaries for proper pairs: (406, 532)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6402 reads
+[M::main_mem] read 109716 sequences (9874440 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (2, 49840, 1, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (460, 469, 477)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (426, 511)
+[M::mem_pestat] mean and std.dev: (468.34, 13.91)
+[M::mem_pestat] low and high boundaries for proper pairs: (409, 528)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::worker2@0] performed mate-SW for 6372 reads
+[main] Version: 0.7.5a-r405
+[main] CMD: bwa mem ecoliX/ecoliX.fasta ecoliX/ecoliX_forward.fastq ecoliX/ecoliX_reverse.fastq
+[main] Real time: 1175.410 sec; CPU: 1166.594 sec
+[samopen] SAM header is present: 1 sequences.
+[bam_sort_core] merging from 5 files...
+[fai_load] build FASTA index.
+[mpileup] 1 samples in 1 input files
+<mpileup> Set max per-file depth to 8000
+[bcfview] 100000 sites processed.
+[afs] 0:99999.997 1:0.003 2:0.000
+[bcfview] 200000 sites processed.
+[afs] 0:100000.000 1:0.000 2:0.000
+[bcfview] 300000 sites processed.
+[afs] 0:99999.979 1:0.018 2:0.003
+[bcfview] 400000 sites processed.
+[afs] 0:100000.000 1:0.000 2:0.000
+[bcfview] 500000 sites processed.
+[afs] 0:100000.000 1:0.000 2:0.000
+[bcfview] 600000 sites processed.
+[afs] 0:99999.975 1:0.025 2:0.000
+[bcfview] 700000 sites processed.
+[afs] 0:99989.673 1:7.895 2:2.431
+[bcfview] 800000 sites processed.
+[afs] 0:99998.937 1:0.057 2:1.006
+[bcfview] 900000 sites processed.
+[afs] 0:99998.988 1:0.012 2:1.000
+[bcfview] 1000000 sites processed.
+[afs] 0:99998.995 1:0.005 2:1.000
+[bcfview] 1100000 sites processed.
+[afs] 0:99999.997 1:0.002 2:0.000
+[bcfview] 1200000 sites processed.
+[afs] 0:99998.000 1:1.000 2:1.000
+[bcfview] 1300000 sites processed.
+[afs] 0:99993.555 1:6.444 2:0.001
+[bcfview] 1400000 sites processed.
+[afs] 0:99999.997 1:0.000 2:0.003
+[bcfview] 1500000 sites processed.
+[afs] 0:100000.000 1:0.000 2:0.000
+[bcfview] 1600000 sites processed.
+[afs] 0:99999.993 1:0.002 2:0.005
+[bcfview] 1700000 sites processed.
+[afs] 0:100000.000 1:0.000 2:0.000
+[bcfview] 1800000 sites processed.
+[afs] 0:99999.961 1:0.039 2:0.001
+[bcfview] 1900000 sites processed.
+[afs] 0:99999.000 1:0.000 2:1.000
+[bcfview] 2000000 sites processed.
+[afs] 0:100000.000 1:0.000 2:0.000
+[bcfview] 2100000 sites processed.
+[afs] 0:100000.000 1:0.000 2:0.000
+[bcfview] 2200000 sites processed.
+[afs] 0:99999.999 1:0.001 2:0.000
+[bcfview] 2300000 sites processed.
+[afs] 0:99997.276 1:1.557 2:1.166
+[bcfview] 2400000 sites processed.
+[afs] 0:99999.995 1:0.005 2:0.000
+[bcfview] 2500000 sites processed.
+[afs] 0:99999.919 1:0.079 2:0.003
+[bcfview] 2600000 sites processed.
+[afs] 0:100000.000 1:0.000 2:0.000
+[bcfview] 2700000 sites processed.
+[afs] 0:99999.999 1:0.001 2:0.000
+[bcfview] 2800000 sites processed.
+[afs] 0:100000.000 1:0.000 2:0.000
+[bcfview] 2900000 sites processed.
+[afs] 0:99999.000 1:0.000 2:1.000
+[bcfview] 3000000 sites processed.
+[afs] 0:99999.964 1:0.000 2:0.036
+[bcfview] 3100000 sites processed.
+[afs] 0:99999.997 1:0.003 2:0.000
+[bcfview] 3200000 sites processed.
+[afs] 0:99991.996 1:8.002 2:0.002
+[bcfview] 3300000 sites processed.
+[afs] 0:99999.997 1:0.002 2:0.001
+[bcfview] 3400000 sites processed.
+[afs] 0:99996.991 1:3.009 2:0.000
+[bcfview] 3500000 sites processed.
+[afs] 0:99999.995 1:0.005 2:0.000
+[bcfview] 3600000 sites processed.
+[afs] 0:99947.106 1:51.866 2:1.028
+[bcfview] 3700000 sites processed.
+[afs] 0:100000.000 1:0.000 2:0.000
+[bcfview] 3800000 sites processed.
+[afs] 0:99999.996 1:0.004 2:0.000
+[bcfview] 3900000 sites processed.
+[afs] 0:99999.998 1:0.002 2:0.000
+[bcfview] 4000000 sites processed.
+[afs] 0:99999.021 1:0.000 2:0.979
+[bcfview] 4100000 sites processed.
+[afs] 0:100000.000 1:0.000 2:0.000
+[bcfview] 4200000 sites processed.
+[afs] 0:99999.996 1:0.004 2:0.000
+[bcfview] 4300000 sites processed.
+[afs] 0:99999.933 1:0.019 2:0.048
+[bcfview] 4400000 sites processed.
+[afs] 0:99997.894 1:1.095 2:1.011
+[bcfview] 4500000 sites processed.
+[afs] 0:100000.000 1:0.000 2:0.000
+[bcfview] 4600000 sites processed.
+[afs] 0:99999.996 1:0.000 2:0.004
+[bcfview] 4700000 sites processed.
+[afs] 0:99999.993 1:0.001 2:0.007
+[bcfview] 4800000 sites processed.
+[afs] 0:99999.923 1:0.023 2:0.054
+[bcfview] 4900000 sites processed.
+[afs] 0:99999.998 1:0.001 2:0.000
+[bcfview] 5000000 sites processed.
+[afs] 0:99938.857 1:60.130 2:1.013
+[bcfview] 5100000 sitRead and write (return) sequences
+[18:11:44] This is prokka 1.12
+[18:11:44] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[18:11:44] Homepage is https://github.com/tseemann/prokka
+[18:11:44] Local time is Mon Jun 12 18:11:44 2017
+[18:11:44] You are adamklie
+[18:11:44] Operating system is linux
+[18:11:44] You have BioPerl 1.006923
+[18:11:44] System has 4 cores.
+[18:11:44] Option --cpu asked for 8 cores, but system only has 4
+[18:11:44] Will use maximum of 4 cores.
+[18:11:44] Annotating as >>> Bacteria <<<
+[18:11:44] Generating locus_tag from 'contigs.fa' contents.
+[18:11:44] Setting --locustag HGGFENPE from MD5 100fe79e07ef6c6d2eaf42080c862639
+[18:11:44] Creating new output folder: PROKKA_06122017
+[18:11:44] Running: mkdir -p PROKKA_06122017
+[18:11:44] Using filename prefix: PROKKA_06122017.XXX
+[18:11:44] Setting HMMER_NCPU=1
+[18:11:44] Writing log to: PROKKA_06122017/PROKKA_06122017.log
+[18:11:44] Command: /usr/local/bin/prokka contigs.fa --rnammer
+[18:11:44] Appending to PATH: /home/adamklie/bin/prokka/bin/../binaries/linux
+[18:11:44] Appending to PATH: /home/adamklie/bin/prokka/bin/../binaries/linux/../common
+[18:11:44] Appending to PATH: /home/adamklie/bin/prokka/bin
+[18:11:44] Looking for 'aragorn' - found /home/adamklie/bin/prokka/bin/../binaries/linux/aragorn
+[18:11:44] Determined aragorn version is 1.2
+[18:11:44] Looking for 'blastp' - found /usr/bin/blastp
+[18:11:45] Determined blastp version is 2.2
+[18:11:45] Looking for 'cmpress' - found /usr/bin/cmpress
+[18:11:45] Determined cmpress version is 1.1
+[18:11:45] Looking for 'cmscan' - found /usr/bin/cmscan
+[18:11:45] Determined cmscan version is 1.1
+[18:11:45] Looking for 'egrep' - found /bin/egrep
+[18:11:45] Looking for 'find' - found /usr/bin/find
+[18:11:45] Looking for 'grep' - found /bin/grep
+[18:11:45] Looking for 'hmmpress' - found /usr/bin/hmmpress
+[18:11:45] Determined hmmpress version is 3.1
+[18:11:45] Looking for 'hmmscan' - found /usr/bin/hmmscan
+[18:11:45] Determined hmmscan version is 3.1
+[18:11:45] Looking for 'java' - found /usr/bin/java
+[18:11:45] Looking for 'less' - found /usr/bin/less
+[18:11:45] Looking for 'makeblastdb' - found /usr/bin/makeblastdb
+[18:11:45] Determined makeblastdb version is 2.2
+[18:11:45] Looking for 'minced' - found /home/adamklie/bin/prokka/bin/../binaries/linux/../common/minced
+[18:11:46] Determined minced version is 2.0
+[18:11:46] Looking for 'parallel' - found /usr/bin/parallel
+[18:11:46] Determined parallel version is 20130922
+[18:11:46] Looking for 'prodigal' - found /home/adamklie/bin/prokka/bin/../binaries/linux/prodigal
+[18:11:46] Determined prodigal version is 2.6
+[18:11:46] Looking for 'prokka-genbank_to_fasta_db' - found /usr/local/bin/prokka-genbank_to_fasta_db
+[18:11:46] Looking for 'sed' - found /bin/sed
+[18:11:46] Looking for 'tbl2asn' - found /home/adamklie/bin/prokka/bin/../binaries/linux/tbl2asn
+[18:11:46] Determined tbl2asn version is 25.3
+[18:11:46] Using genetic code table 11.
+[18:11:46] Loading and checking input file: contigs.fa
+[18:11:47] Wrote 1 contigs totalling 5277676 bp.
+[18:11:47] Predicting tRNAs and tmRNAs
+[18:11:47] Running: aragorn -l -gc11  -w PROKKA_06122017\/PROKKA_06122017\.fna
+[18:11:50] 1 tRNA-Ile [225878,225954] 35 (gat)
+[18:11:50] 2 tRNA-Ala [225997,226072] 34 (tgc)
+[18:11:50] 3 tRNA-Asp [229563,229639] 35 (gtc)
+[18:11:50] 4 tRNA-Asp [237786,237862] 35 (gtc)
+[18:11:50] 5 tRNA-Thr [293552,293627] 34 (cgt)
+[18:11:50] 6 tRNA-Ser [381112,381192] 38 (gga)
+[18:11:50] 7 tRNA-Arg [598709,598785] 35 (tct)
+[18:11:50] 8 tRNA-Gln c[721564,721638] 33 (ctg)
+[18:11:50] 9 tRNA-Gln c[721676,721750] 33 (ctg)
+[18:11:50] 10 tRNA-Met c[721799,721875] 35 (cat)
+[18:11:50] 11 tRNA-Gln c[721891,721965] 33 (ttg)
+[18:11:50] 12 tRNA-Gln c[722000,722074] 33 (ttg)
+[18:11:50] 13 tRNA-Leu c[722098,722182] 35 (tag)
+[18:11:50] 14 tRNA-Met c[722191,722267] 35 (cat)
+[18:11:50] 15 tRNA-Lys [799575,799650] 34 (ttt)
+[18:11:50] 16 tRNA-Val [799686,799761] 34 (tac)
+[18:11:50] 17 tRNA-Lys [799764,799839] 34 (ttt)
+[18:11:50] 18 tRNA-Val [799989,800064] 34 (tac)
+[18:11:50] 19 tRNA-Lys [800068,800143] 34 (ttt)
+[18:11:50] 20 tRNA-Lys [800290,800365] 34 (ttt)
+[18:11:50] 21 tRNA-Lys [800399,800474] 34 (ttt)
+[18:11:50] 22 tRNA-Ser c[991082,991169] 35 (gga)
+[18:11:50] 23 tRNA-Ser c[1098340,1098427] 35 (tga)
+[18:11:50] 24 tRNA-Met [1157130,1157205] 34 (cat)
+[18:11:50] 25 tRNA-Arg [1157215,1157291] 35 (tcg)
+[18:11:50] 26 tRNA-Arg [1157305,1157381] 35 (tct)
+[18:11:50] 27 tRNA-Ser c[1310237,1310324] 35 (gga)
+[18:11:50] 28 tRNA-Tyr c[1484480,1484564] 35 (gta)
+[18:11:50] 29 tRNA-Tyr c[1484599,1484683] 35 (gta)
+[18:11:50] 30 tRNA-Met [1524707,1524782] 34 (cat)
+[18:11:50] 31 tRNA-Arg [1524790,1524866] 35 (tcg)
+[18:11:50] 32 tRNA-Arg [1524880,1524956] 35 (tct)
+[18:11:50] 33 tRNA-Val [2007889,2007965] 35 (gac)
+[18:11:50] 34 tRNA-Val [2007970,2008046] 35 (gac)
+[18:11:50] 35 tRNA-Arg c[2283151,2283227] 35 (tct)
+[18:11:50] 36 tRNA-Arg c[2283241,2283317] 35 (tcg)
+[18:11:50] 37 tRNA-Met c[2283327,2283402] 34 (cat)
+[18:11:50] 38 tRNA-Leu c[2341453,2341539] 35 (taa)
+[18:11:50] 39 tRNA-Cys c[2341552,2341625] 33 (gca)
+[18:11:50] 40 tRNA-Gly c[2341680,2341755] 34 (gcc)
+[18:11:50] 41 tRNA-Ser c[2395433,2395522] 35 (cga)
+[18:11:50] 42 tRNA-Asn [2396514,2396589] 34 (gtt)
+[18:11:50] 43 tRNA-Asn c[2436405,2436480] 34 (gtt)
+[18:11:50] 44 tRNA-Asn [2438229,2438304] 34 (gtt)
+[18:11:50] 45 tRNA-Asn [2440638,2440713] 34 (gtt)
+[18:11:50] 46 tRNA-Pro [2680936,2681012] 35 (ggg)
+[18:11:50] 47 tRNA-Arg [2845798,2845872] 34 (cct)
+[18:11:50] 48 tRNA-Ala c[2918297,2918372] 34 (ggc)
+[18:11:50] 49 tRNA-Ala c[2918412,2918487] 34 (ggc)
+[18:11:50] 50 tRNA-Val [2921187,2921262] 34 (tac)
+[18:11:50] 51 tRNA-Val [2921307,2921382] 34 (tac)
+[18:11:50] 52 tRNA-Val [2921429,2921504] 34 (tac)
+[18:11:50] 53 tRNA-Lys [2921509,2921584] 34 (ttt)
+[18:11:50] 54 tRNA-Glu c[3121843,3121918] 35 (ttc)
+[18:11:50] 55 tmRNA [3147957,3148319] 90,125 ANDENYALAA**
+[18:11:50] 56 tRNA-Met c[3165604,3165679] 34 (cat)
+[18:11:50] 57 tRNA-Arg c[3197706,3197782] 35 (acg)
+[18:11:50] 58 tRNA-Arg [3197964,3198035] 34 (tcg)
+[18:11:50] 59 tRNA-Arg c[3197979,3198055] 35 (acg)
+[18:11:50] 60 tRNA-Ser c[3198059,3198151] 35 (gct)
+[18:11:50] 61 tRNA-Met [3333665,3333741] 35 (cat)
+[18:11:50] 62 tRNA-Met [3333775,3333851] 35 (cat)
+[18:11:50] 63 tRNA-Gly c[3392132,3392205] 33 (ccc)
+[18:11:50] 64 tRNA-Phe [3507570,3507645] 34 (gaa)
+[18:11:50] 65 tRNA-Met [3713783,3713858] 34 (cat)
+[18:11:50] 66 tRNA-Met c[3825262,3825338] 35 (cat)
+[18:11:50] 67 tRNA-Leu c[3829119,3829205] 35 (gag)
+[18:11:50] 68 tRNA-Thr c[3922864,3922939] 34 (ggt)
+[18:11:50] 69 tRNA-Ala c[3926252,3926327] 34 (tgc)
+[18:11:50] 70 tRNA-Ile c[3926370,3926446] 35 (gat)
+[18:11:50] 71 tRNA-Pro c[4223779,4223855] 35 (cgg)
+[18:11:50] 72 tRNA-SeC [4359344,4359438] 35 (tca)
+[18:11:50] 73 tRNA-Glu [4519960,4520035] 35 (ttc)
+[18:11:50] 74 tRNA-Asp [4523397,4523473] 35 (gtc)
+[18:11:50] 75 tRNA-Trp [4523482,4523557] 34 (cca)
+[18:11:50] 76 tRNA-Arg [4558901,4558977] 35 (ccg)
+[18:11:50] 77 tRNA-His [4559036,4559111] 34 (gtg)
+[18:11:50] 78 tRNA-Leu [4559132,4559218] 35 (cag)
+[18:11:50] 79 tRNA-Pro [4559261,4559337] 35 (tgg)
+[18:11:50] 80 tRNA-Glu [4617305,4617380] 35 (ttc)
+[18:11:50] 81 tRNA-Glu [4754424,4754499] 35 (ttc)
+[18:11:50] 82 tRNA-Thr [4761441,4761516] 34 (tgt)
+[18:11:50] 83 tRNA-Tyr [4761525,4761609] 35 (gta)
+[18:11:50] 84 tRNA-Gly [4761726,4761800] 34 (tcc)
+[18:11:50] 85 tRNA-Thr [4761807,4761882] 34 (ggt)
+[18:11:50] 86 tRNA-Glu [4795806,4795881] 35 (ttc)
+[18:11:50] 87 tRNA-Phe c[4992222,4992297] 34 (gaa)
+[18:11:50] 88 tRNA-Gly [5022025,5022100] 34 (gcc)
+[18:11:50] 89 tRNA-Gly [5022137,5022212] 34 (gcc)
+[18:11:50] 90 tRNA-Gly [5022248,5022323] 34 (gcc)
+[18:11:50] 91 tRNA-Leu [5128283,5128367] 35 (caa)
+[18:11:50] 92 tRNA-Leu c[5243437,5243523] 35 (cag)
+[18:11:50] 93 tRNA-Leu c[5243558,5243644] 35 (cag)
+[18:11:50] 94 tRNA-Leu c[5243673,5243759] 35 (cag)
+[18:11:50] Found 94 tRNAs
+[18:11:50] Predicting Ribosomal RNAs
+[18:11:50] You need either Barrnap or RNAmmer installed to predict rRNAs!
+[18:11:50] Skipping ncRNA search, enable with --rfam if desired.
+[18:11:50] Total of 93 tRNA + rRNA features
+[18:11:50] Searching for CRISPR repeats
+[18:11:52] CRISPR1 NZ_HF572917.1 3290026 with 14 spacers
+[18:11:52] Found 1 CRISPRs
+[18:11:52] Predicting coding sequences
+[18:11:52] Contigs total 5277676 bp, so using single mode
+[18:11:52] Running: prodigal -i PROKKA_06122017\/PROKKA_06122017\.fna -c -m -g 11 -p single -f sco -q
+[18:12:10] Excluding CDS which overlaps existing RNA (tRNA) at NZ_HF572917.1:381182..381427 on + strand
+[18:12:13] Excluding CDS which overlaps existing RNA (tRNA) at NZ_HF572917.1:1484301..1484747 on + strand
+[18:12:15] Excluding CDS which overlaps existing RNA (tRNA) at NZ_HF572917.1:2283042..2283221 on + strand
+[18:12:18] Excluding CDS which overlaps existing RNA (tRNA) at NZ_HF572917.1:3507558..3507779 on + strand
+[18:12:19] Excluding CDS which overlaps existing RNA (tRNA) at NZ_HF572917.1:3922787..3923110 on + strand
+[18:12:22] Excluding CDS which overlaps existing RNA (tRNA) at NZ_HF572917.1:5022036..5022479 on - strand
+[18:12:22] Found 4982 CDS
+[18:12:22] Connecting features back to sequences
+[18:12:22] Not using genus-specific database. Try --usegenus to enable it.
+[18:12:22] Annotating CDS, please be patient.
+[18:12:22] Will use 4 CPUs for similarity searching.
+[18:12:30] There are still 4982 unannotated CDS left (started with 4982)
+[18:12:30] Will use blast to search against /home/adamklie/bin/prokka/bin/../db/kingdom/Bacteria/sprot with 4 CPUs
+[18:12:30] Running: cat PROKKA_06122017\/sprot\.faa | parallel --gnu --plain -j 4 --block 196240 --recstart '>' --pipe blastp -query - -db /home/adamklie/bin/prokka/bin/../db/kingdom/Bacteria/sprot -evalue 1e-06 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > PROKKA_06122017\/sprot\.blast 2> /dev/null
+[18:17:40] Modify product: Uncharacterized HTH-type transcriptional regulator YahB => putative HTH-type transcriptional regulator YahB
+[18:17:40] Modify product: Probable autotransporter ROD_p1121 => putative autotransporter
+[18:17:40] Modify product: Uncharacterized ferredoxin-like protein YdhX => putative ferredoxin-like protein YdhX
+[18:17:40] Modify product: Uncharacterized oxidoreductase YdhV => putative oxidoreductase YdhV
+[18:17:40] Modify product: Uncharacterized ferredoxin-like protein YdhY => putative ferredoxin-like protein YdhY
+[18:17:40] Modify product: Probable L,D-transpeptidase YnhG => putative L,D-transpeptidase YnhG
+[18:17:40] Modify product: Probable ATP-dependent transporter SufC => putative ATP-dependent transporter SufC
+[18:17:40] Modify product: Uncharacterized FAD-linked oxidoreductase Rv2280 => putative FAD-linked oxidoreductase
+[18:17:40] Modify product: Probable 9-O-acetyl-N-acetylneuraminic acid deacetylase => putative 9-O-acetyl-N-acetylneuraminic acid deacetylase
+[18:17:40] Modify product: Prophage tail fiber assembly protein homolog TfaE => Prophage tail fiber assembly protein TfaE
+[18:17:40] Modify product: Uncharacterized sugar kinase YdjH => putative sugar kinase YdjH
+[18:17:40] Modify product: Probable fructose-bisphosphate aldolase => putative fructose-bisphosphate aldolase
+[18:17:40] Modify product: Stress response UPF0229 protein YhbH => hypothetical protein
+[18:17:40] Modify product: Probable diguanylate cyclase YeaP => putative diguanylate cyclase YeaP
+[18:17:40] Modify product: Probable S-adenosyl-L-methionine-dependent methyltransferase TehB => putative S-adenosyl-L-methionine-dependent methyltransferase TehB
+[18:17:40] Modify product: Probable ATP-dependent helicase DinG homolog => putative ATP-dependent helicase DinG 
+[18:17:40] Modify product: Probable manganese efflux pump MntP => putative manganese efflux pump MntP
+[18:17:40] Modify product: Probable transcriptional regulatory protein YebC => putative transcriptional regulatory protein YebC
+[18:17:40] Modify product: Probable 9-O-acetyl-N-acetylneuraminic acid deacetylase => putative 9-O-acetyl-N-acetylneuraminic acid deacetylase
+[18:17:40] Modify product: Uncharacterized HTH-type transcriptional regulator HI_1476 => putative HTH-type transcriptional regulator
+[18:17:41] Modify product: Probable diguanylate cyclase YedQ => putative diguanylate cyclase YedQ
+[18:17:41] Modify product: Probable diguanylate cyclase YedQ => putative diguanylate cyclase YedQ
+[18:17:41] Modify product: Uncharacterized inner membrane transporter YedA => putative inner membrane transporter YedA
+[18:17:41] Modify product: Probable sensor-like histidine kinase YedV => putative sensor-like histidine kinase YedV
+[18:17:41] Modify product: Probable transcriptional regulatory protein YedW => putative transcriptional regulatory protein YedW
+[18:17:41] Modify product: Putative multidrug export ATP-binding/permease protein SA1683 => Putative multidrug export ATP-binding/permease protein
+[18:17:41] Modify product: Probable transcriptional regulatory protein SA0624 => putative transcriptional regulatory protein
+[18:17:41] Modify product: Probable FMN/FAD exporter YeeO => putative FMN/FAD exporter YeeO
+[18:17:41] Modify product: Probable L,D-transpeptidase ErfK/SrfK => putative L,D-transpeptidase ErfK/SrfK
+[18:17:41] Modify product: Uncharacterized glycosyltransferase Rv1514c => putative glycosyltransferase
+[18:17:41] Modify product: Probable diguanylate cyclase YegE => putative diguanylate cyclase YegE
+[18:17:41] Modify product: Uncharacterized protease YdcP => putative protease YdcP
+[18:17:41] Modify product: Uncharacterized fimbrial-like protein YehA => putative fimbrial-like protein YehA
+[18:17:41] Modify product: Probable fimbrial chaperone YehC => putative fimbrial chaperone YehC
+[18:17:41] Modify product: Uncharacterized fimbrial-like protein YehD => putative fimbrial-like protein YehD
+[18:17:41] Modify product: Uncharacterized lipoprotein YehR => putative lipoprotein YehR
+[18:17:41] Modify product: Uncharacterized oxidoreductase YbdH => putative oxidoreductase YbdH
+[18:17:41] Modify product: Uncharacterized HTH-type transcriptional regulator YbdO => putative HTH-type transcriptional regulator YbdO
+[18:17:41] Modify product: Probable zinc-binding alcohol dehydrogenase Rv1895 => putative zinc-binding alcohol dehydrogenase
+[18:17:41] Modify product: Hydrolase Rv0480c => Hydrolase
+[18:17:41] Modify product: Uncharacterized HTH-type transcriptional regulator YbdO => putative HTH-type transcriptional regulator YbdO
+[18:17:41] Modify product: Probable glutamine ABC transporter permease protein GlnM => putative glutamine ABC transporter permease protein GlnM
+[18:17:41] Modify product: Uncharacterized lipoprotein ChiQ => putative lipoprotein ChiQ
+[18:17:41] Modify product: Probable deoxyribonuclease RhsB => putative deoxyribonuclease RhsB
+[18:17:41] Modify product: GTP cyclohydrolase 1 type 2 homolog => GTP cyclohydrolase 1 type 2 
+[18:17:41] Modify product: Uncharacterized fimbrial-like protein YbgD => putative fimbrial-like protein YbgD
+[18:17:41] Modify product: Uncharacterized ABC transporter ATP-binding protein YlmA => putative ABC transporter ATP-binding protein YlmA
+[18:17:41] Modify product: Uncharacterized HTH-type transcriptional regulator HI_1476 => putative HTH-type transcriptional regulator
+[18:17:41] Modify product: Prophage tail fiber assembly protein homolog TfaE => Prophage tail fiber assembly protein TfaE
+[18:17:41] Modify product: Uncharacterized ABC transporter ATP-binding protein YbhF => putative ABC transporter ATP-binding protein YbhF
+[18:17:41] Modify product: Uncharacterized HTH-type transcriptional regulator YbiH => putative HTH-type transcriptional regulator YbiH
+[18:17:41] Modify product: Probable ATP-dependent helicase DinG => putative ATP-dependent helicase DinG
+[18:17:42] Modify product: Uncharacterized oxidoreductase YbiC => putative oxidoreductase YbiC
+[18:17:42] Modify product: PKHD-type hydroxylase Sbal_3634 => PKHD-type hydroxylase
+[18:17:42] Modify product: Probable L,D-transpeptidase YbiS => putative L,D-transpeptidase YbiS
+[18:17:42] Modify product: Uncharacterized ABC transporter ATP-binding protein YbiT => putative ABC transporter ATP-binding protein YbiT
+[18:17:42] Modify product: Uncharacterized lipoprotein YbjP => putative lipoprotein YbjP
+[18:17:42] Modify product: Uncharacterized MFS-type transporter YcaD => putative MFS-type transporter YcaD
+[18:17:42] Modify product: Probable formate transporter 1 => putative formate transporter 1
+[18:17:42] Modify product: Probable fimbrial chaperone protein ElfD => putative fimbrial chaperone protein ElfD
+[18:17:42] Modify product: Probable outer membrane usher protein ElfC => putative outer membrane usher protein ElfC
+[18:17:42] Modify product: Uncharacterized fimbrial-like protein ElfG => putative fimbrial-like protein ElfG
+[18:17:42] Modify product: Uncharacterized fimbrial-like protein YcbU => putative fimbrial-like protein YcbU
+[18:17:42] Modify product: Uncharacterized fimbrial-like protein YcbV => putative fimbrial-like protein YcbV
+[18:17:42] Modify product: Uncharacterized fimbrial chaperone YcbF => putative fimbrial chaperone YcbF
+[18:17:42] Modify product: Probable Ni/Fe-hydrogenase 1 B-type cytochrome subunit => putative Ni/Fe-hydrogenase 1 B-type cytochrome subunit
+[18:17:42] Modify product: Uncharacterized lipoprotein GfcB => putative lipoprotein GfcB
+[18:17:42] Modify product: Uncharacterized HTH-type transcriptional regulator CBU_1416 => putative HTH-type transcriptional regulator
+[18:17:42] Modify product: Probable 9-O-acetyl-N-acetylneuraminic acid deacetylase => putative 9-O-acetyl-N-acetylneuraminic acid deacetylase
+[18:17:42] Modify product: Probable malonic semialdehyde reductase RutE => putative malonic semialdehyde reductase RutE
+[18:17:42] Modify product: Probable diguanylate cyclase YcdT => putative diguanylate cyclase YcdT
+[18:17:42] Modify product: Probable phosphatase YcdX => putative phosphatase YcdX
+[18:17:42] Modify product: Probable adenylyltransferase/sulfurtransferase MoeZ => putative adenylyltransferase/sulfurtransferase MoeZ
+[18:17:42] Modify product: Cytochrome b561 homolog 2 => Cytochrome b561 
+[18:17:42] Modify product: Uncharacterized lipoprotein YceB => putative lipoprotein YceB
+[18:17:43] Modify product: Uncharacterized metal-dependent hydrolase YcfH => putative metal-dependent hydrolase YcfH
+[18:17:43] Modify product: Probable L,D-transpeptidase YcfS => putative L,D-transpeptidase YcfS
+[18:17:43] Modify product: Probable two-component-system connector protein YcgZ => putative two-component-system connector protein YcgZ
+[18:17:43] Modify product: Probable two-component-system connector protein AriR => putative two-component-system connector protein AriR
+[18:17:43] Modify product: Probable autotransporter ROD_p1121 => putative autotransporter
+[18:17:43] Modify product: Probable autotransporter ROD_p1121 => putative autotransporter
+[18:17:43] Modify product: Uncharacterized NTE family protein Rv1063c => putative NTE family protein
+[18:17:43] Modify product: Uncharacterized acyl-CoA thioester hydrolase HI_0827 => putative acyl-CoA thioester hydrolase
+[18:17:43] Modify product: Probable intracellular septation protein A => putative intracellular septation protein A
+[18:17:43] Modify product: Probable 9-O-acetyl-N-acetylneuraminic acid deacetylase => putative 9-O-acetyl-N-acetylneuraminic acid deacetylase
+[18:17:43] Modify product: Prophage tail fiber assembly protein homolog TfaE => Prophage tail fiber assembly protein TfaE
+[18:17:43] Modify product: Uncharacterized oxidoreductase YciK => putative oxidoreductase YciK
+[18:17:43] Modify product: Probable protease SohB => putative protease SohB
+[18:17:43] Modify product: Probable DNA endonuclease SmrA => putative DNA endonuclease SmrA
+[18:17:43] Modify product: Probable diguanylate cyclase YdaM => putative diguanylate cyclase YdaM
+[18:17:43] Modify product: Uncharacterized protease YdcP => putative protease YdcP
+[18:17:43] Modify product: Uncharacterized isomerase YddE => putative isomerase YddE
+[18:17:43] Modify product: Probable nitrate reductase molybdenum cofactor assembly chaperone NarW => putative nitrate reductase molybdenum cofactor assembly chaperone NarW
+[18:17:43] Modify product: Uncharacterized HTH-type transcriptional regulator YddM => putative HTH-type transcriptional regulator YddM
+[18:17:43] Modify product: Probable D,D-dipeptide transport ATP-binding protein DdpF => putative D,D-dipeptide transport ATP-binding protein DdpF
+[18:17:43] Modify product: Probable D,D-dipeptide transport ATP-binding protein DdpD => putative D,D-dipeptide transport ATP-binding protein DdpD
+[18:17:43] Modify product: Probable D,D-dipeptide transport system permease protein DdpC => putative D,D-dipeptide transport system permease protein DdpC
+[18:17:43] Modify product: Probable D,D-dipeptide transport system permease protein DdpB => putative D,D-dipeptide transport system permease protein DdpB
+[18:17:43] Modify product: Probable D,D-dipeptide-binding periplasmic protein DdpA => putative D,D-dipeptide-binding periplasmic protein DdpA
+[18:17:43] Modify product: Probable glutamate/gamma-aminobutyrate antiporter => putative glutamate/gamma-aminobutyrate antiporter
+[18:17:43] Modify product: Uncharacterized zinc protease Rv2782c => putative zinc protease
+[18:17:43] Modify product: Uncharacterized oxidoreductase Rv2900c => putative oxidoreductase
+[18:17:43] Modify product: Probable diguanylate cyclase YedQ => putative diguanylate cyclase YedQ
+[18:17:43] Modify product: Probable amino-acid metabolite efflux pump => putative amino-acid metabolite efflux pump
+[18:17:43] Modify product: Probable dimethyl sulfoxide reductase chain YnfF => putative dimethyl sulfoxide reductase chain YnfF
+[18:17:43] Modify product: Probable 9-O-acetyl-N-acetylneuraminic acid deacetylase => putative 9-O-acetyl-N-acetylneuraminic acid deacetylase
+[18:17:43] Modify product: Uncharacterized HTH-type transcriptional regulator CBU_1416 => putative HTH-type transcriptional regulator
+[18:17:44] Modify product: Probable crotonobetaine/carnitine-CoA ligase => putative crotonobetaine/carnitine-CoA ligase
+[18:17:44] Modify product: Probable peptidoglycan glycosyltransferase FtsW => putative peptidoglycan glycosyltransferase FtsW
+[18:17:44] Modify product: Uncharacterized fimbrial-like protein YadC => putative fimbrial-like protein YadC
+[18:17:44] Modify product: Uncharacterized fimbrial-like protein YadK => putative fimbrial-like protein YadK
+[18:17:44] Modify product: Uncharacterized fimbrial-like protein YadL => putative fimbrial-like protein YadL
+[18:17:44] Modify product: Uncharacterized fimbrial-like protein YadM => putative fimbrial-like protein YadM
+[18:17:44] Modify product: Probable fimbrial chaperone YadV => putative fimbrial chaperone YadV
+[18:17:44] Modify product: Uncharacterized fimbrial-like protein YadN => putative fimbrial-like protein YadN
+[18:17:44] Modify product: Uncharacterized methyltransferase YcgJ => putative methyltransferase YcgJ
+[18:17:44] Modify product: Probable deoxyribonuclease RhsB => putative deoxyribonuclease RhsB
+[18:17:44] Modify product: Uncharacterized N-acetyltransferase YafP => putative N-acetyltransferase YafP
+[18:17:44] Modify product: Probable fimbrial chaperone EcpE => putative fimbrial chaperone EcpE
+[18:17:44] Modify product: Probable outer membrane usher protein EcpC => putative outer membrane usher protein EcpC
+[18:17:44] Modify product: Probable fimbrial chaperone EcpB => putative fimbrial chaperone EcpB
+[18:17:44] Modify product: Uncharacterized membrane protein YkgR => putative membrane protein YkgR
+[18:17:44] Modify product: Probable pyridine nucleotide-disulfide oxidoreductase RclA => putative pyridine nucleotide-disulfide oxidoreductase RclA
+[18:17:44] Modify product: Uncharacterized HTH-type transcriptional regulator YahB => putative HTH-type transcriptional regulator YahB
+[18:17:44] Modify product: Uncharacterized transporter YycB => putative transporter YycB
+[18:17:44] Modify product: Probable diguanylate cyclase AdrA => putative diguanylate cyclase AdrA
+[18:17:44] Modify product: Uncharacterized lipoprotein YajI => putative lipoprotein YajI
+[18:17:44] Modify product: Uncharacterized lipoprotein YajI => putative lipoprotein YajI
+[18:17:44] Modify product: Probable multidrug resistance ABC transporter ATP-binding/permease protein YheI => putative multidrug resistance ABC transporter ATP-binding/permease protein YheI
+[18:17:44] Modify product: Uncharacterized HTH-type transcriptional regulator YbaQ => putative HTH-type transcriptional regulator YbaQ
+[18:17:44] Modify product: Probable iron export ATP-binding protein FetA => putative iron export ATP-binding protein FetA
+[18:17:44] Modify product: Probable iron export permease protein FetB => putative iron export permease protein FetB
+[18:17:44] Modify product: Uncharacterized oxidoreductase Rv0484c => putative oxidoreductase
+[18:17:44] Modify product: Bifunctional protein FolD => Bifunctional protein FolD protein
+[18:17:44] Modify product: Uncharacterized fimbrial-like protein SfmA => putative fimbrial-like protein SfmA
+[18:17:44] Modify product: Probable fimbrial chaperone SfmC => putative fimbrial chaperone SfmC
+[18:17:44] Modify product: Uncharacterized fimbrial-like protein SfmH => putative fimbrial-like protein SfmH
+[18:17:44] Modify product: Uncharacterized fimbrial-like protein SfmF => putative fimbrial-like protein SfmF
+[18:17:44] Modify product: Probable deoxyribonuclease RhsA => putative deoxyribonuclease RhsA
+[18:17:45] Modify product: Uncharacterized FAD-linked oxidoreductase Rv2280 => putative FAD-linked oxidoreductase
+[18:17:45] Modify product: Probable glucarate transporter => putative glucarate transporter
+[18:17:45] Modify product: Uncharacterized lipoprotein YgdR => putative lipoprotein YgdR
+[18:17:45] Modify product: Uncharacterized lipoprotein YgdR => putative lipoprotein YgdR
+[18:17:45] Modify product: Probable xanthine dehydrogenase subunit A => putative xanthine dehydrogenase subunit A
+[18:17:45] Modify product: Probable Fe(2+)-trafficking protein => putative Fe(2+)-trafficking protein
+[18:17:45] Modify product: Uncharacterized membrane protein YdfK => putative membrane protein YdfK
+[18:17:45] Modify product: Uncharacterized FAD-linked oxidoreductase Rv2280 => putative FAD-linked oxidoreductase
+[18:17:45] Modify product: Uncharacterized FAD-linked oxidoreductase Rv2280 => putative FAD-linked oxidoreductase
+[18:17:45] Modify product: Probable Ni/Fe-hydrogenase 2 b-type cytochrome subunit => putative Ni/Fe-hydrogenase 2 b-type cytochrome subunit
+[18:17:45] Modify product: Uncharacterized oxidoreductase YghA => putative oxidoreductase YghA
+[18:17:45] Modify product: Probable quinol monooxygenase YgiN => putative quinol monooxygenase YgiN
+[18:17:45] Modify product: Uncharacterized fimbrial-like protein YbgD => putative fimbrial-like protein YbgD
+[18:17:45] Modify product: Probable glycerol-3-phosphate acyltransferase => putative glycerol-3-phosphate acyltransferase
+[18:17:45] Modify product: Probable serine transporter => putative serine transporter
+[18:17:45] Modify product: Probable galactarate transporter => putative galactarate transporter
+[18:17:45] Modify product: Uncharacterized fimbrial-like protein YraH => putative fimbrial-like protein YraH
+[18:17:45] Modify product: Probable fimbrial chaperone YraI => putative fimbrial chaperone YraI
+[18:17:45] Modify product: Uncharacterized fimbrial-like protein YraK => putative fimbrial-like protein YraK
+[18:17:45] Modify product: Uncharacterized protease YhbU => putative protease YhbU
+[18:17:45] Modify product: Uncharacterized inner membrane transporter YhbE => putative inner membrane transporter YhbE
+[18:17:45] Modify product: Probable phospholipid ABC transporter-binding protein MlaB => putative phospholipid ABC transporter-binding protein MlaB
+[18:17:45] Modify product: Probable phospholipid-binding protein MlaC => putative phospholipid-binding protein MlaC
+[18:17:45] Modify product: Probable phospholipid ABC transporter-binding protein MlaD => putative phospholipid ABC transporter-binding protein MlaD
+[18:17:45] Modify product: Probable phospholipid ABC transporter permease protein MlaE => putative phospholipid ABC transporter permease protein MlaE
+[18:17:45] Modify product: Probable phospholipid import ATP-binding protein MlaF => putative phospholipid import ATP-binding protein MlaF
+[18:17:46] Modify product: Probable acrylyl-CoA reductase AcuI => putative acrylyl-CoA reductase AcuI
+[18:17:46] Modify product: Uncharacterized membrane protein YhdT => putative membrane protein YhdT
+[18:17:46] Modify product: Probable tRNA-dihydrouridine synthase => putative tRNA-dihydrouridine synthase
+[18:17:46] Modify product: Probable glutamine ABC transporter permease protein GlnM => putative glutamine ABC transporter permease protein GlnM
+[18:17:46] Modify product: Probable autotransporter ROD_p1121 => putative autotransporter
+[18:17:46] Modify product: Probable 4-deoxy-4-formamido-L-arabinose-phosphoundecaprenol deformylase ArnD => putative 4-deoxy-4-formamido-L-arabinose-phosphoundecaprenol deformylase ArnD
+[18:17:46] Modify product: Probable 4-amino-4-deoxy-L-arabinose-phosphoundecaprenol flippase subunit ArnE => putative 4-amino-4-deoxy-L-arabinose-phosphoundecaprenol flippase subunit ArnE
+[18:17:46] Modify product: Probable 4-amino-4-deoxy-L-arabinose-phosphoundecaprenol flippase subunit ArnF => putative 4-amino-4-deoxy-L-arabinose-phosphoundecaprenol flippase subunit ArnF
+[18:17:46] Modify product: Acetyltransferase SACOL1063 => Acetyltransferase
+[18:17:46] Modify product: Uncharacterized Nudix hydrolase YfcD => putative Nudix hydrolase YfcD
+[18:17:46] Modify product: Epimerase family protein SA0724 => Epimerase family protein
+[18:17:46] Modify product: Uncharacterized membrane protein Rv0364 => putative membrane protein
+[18:17:46] Modify product: Probable galactarate transporter => putative galactarate transporter
+[18:17:46] Modify product: Uncharacterized fimbrial-like protein YfcP => putative fimbrial-like protein YfcP
+[18:17:46] Modify product: Uncharacterized fimbrial-like protein YfcQ => putative fimbrial-like protein YfcQ
+[18:17:46] Modify product: Uncharacterized fimbrial-like protein YfcR => putative fimbrial-like protein YfcR
+[18:17:46] Modify product: Probable fimbrial chaperone YfcS => putative fimbrial chaperone YfcS
+[18:17:46] Modify product: Uncharacterized fimbrial-like protein YfcV => putative fimbrial-like protein YfcV
+[18:17:46] Modify product: Probable phospholipid-binding lipoprotein MlaA => putative phospholipid-binding lipoprotein MlaA
+[18:17:46] Modify product: Probable multidrug resistance protein EmrY => putative multidrug resistance protein EmrY
+[18:17:46] Modify product: Probable multidrug resistance protein EmrK => putative multidrug resistance protein EmrK
+[18:17:46] Modify product: Uncharacterized oxidoreductase Rv1350 => putative oxidoreductase
+[18:17:46] Modify product: Probable deferrochelatase/peroxidase YfeX => putative deferrochelatase/peroxidase YfeX
+[18:17:46] Modify product: Probable formate transporter 2 => putative formate transporter 2
+[18:17:46] Modify product: Uncharacterized lipoprotein YfhM => putative lipoprotein YfhM
+[18:17:46] Modify product: Probable 3-phenylpropionic acid transporter => putative 3-phenylpropionic acid transporter
+[18:17:46] Modify product: Uncharacterized ferredoxin-like protein YfhL => putative ferredoxin-like protein YfhL
+[18:17:47] Modify product: Probable diguanylate cyclase YfiN => putative diguanylate cyclase YfiN
+[18:17:47] Modify product: Probable HTH-type transcriptional regulator YgaV => putative HTH-type transcriptional regulator YgaV
+[18:17:47] Modify product: Probable transporter SCO4007 => putative transporter
+[18:17:47] Modify product: Probable UbiX-like flavin prenyltransferase => putative UbiX-like flavin prenyltransferase
+[18:17:47] Modify product: Uncharacterized tRNA/rRNA methyltransferase HI_0380 => putative tRNA/rRNA methyltransferase
+[18:17:47] Modify product: Probable protein kinase UbiB => putative protein kinase UbiB
+[18:17:47] Modify product: Probable acyltransferase YihG => putative acyltransferase YihG
+[18:17:47] Modify product: Probable GTP-binding protein EngB => putative GTP-binding protein EngB
+[18:17:47] Modify product: Uncharacterized zinc-type alcohol dehydrogenase-like protein YjmD => putative zinc-type alcohol dehydrogenase-like protein YjmD
+[18:17:47] Modify product: Probable cystine transporter YijE => putative cystine transporter YijE
+[18:17:47] Modify product: Probable L-galactonate transporter => putative L-galactonate transporter
+[18:17:47] Modify product: Uncharacterized N-acetyltransferase YjaB => putative N-acetyltransferase YjaB
+[18:17:47] Modify product: Uncharacterized lipoprotein GfcB => putative lipoprotein GfcB
+[18:17:47] Modify product: Uncharacterized ferredoxin-like protein YdhX => putative ferredoxin-like protein YdhX
+[18:17:47] Modify product: Probable transcriptional regulator PhnF => putative transcriptional regulator PhnF
+[18:17:47] Modify product: Probable cadaverine/lysine antiporter => putative cadaverine/lysine antiporter
+[18:17:48] Modify product: Probable L-ascorbate-6-phosphate lactonase UlaG => putative L-ascorbate-6-phosphate lactonase UlaG
+[18:17:48] Modify product: Uncharacterized HTH-type transcriptional regulator YbbH => putative HTH-type transcriptional regulator YbbH
+[18:17:48] Modify product: Probable RNA polymerase sigma factor FecI => putative RNA polymerase sigma factor FecI
+[18:17:48] Modify product: Probable type I restriction enzyme BthVORF4518P M protein => putative type I restriction enzymeP M protein
+[18:17:48] Modify product: Uncharacterized GTP-binding protein YjiA => putative GTP-binding protein YjiA
+[18:17:48] Modify product: Probable L-galactonate transporter => putative L-galactonate transporter
+[18:17:48] Modify product: Probable HTH-type transcriptional regulator LgoR => putative HTH-type transcriptional regulator LgoR
+[18:17:48] Modify product: Uncharacterized metal-dependent hydrolase YjjV => putative metal-dependent hydrolase YjjV
+[18:17:48] Modify product: Uncharacterized ABC transporter ATP-binding protein YheS => putative ABC transporter ATP-binding protein YheS
+[18:17:48] Modify product: Probable adenosine monophosphate-protein transferase fic => putative adenosine monophosphate-protein transferase fic
+[18:17:48] Modify product: Uncharacterized HTH-type transcriptional regulator YurK => putative HTH-type transcriptional regulator YurK
+[18:17:48] Modify product: Putative membrane protein IgaA homolog => Putative membrane protein IgaA 
+[18:17:48] Modify product: Probable [Fe-S]-dependent transcriptional repressor FeoC => putative [Fe-S]-dependent transcriptional repressor FeoC
+[18:17:48] Modify product: Uncharacterized oxidoreductase YhhX => putative oxidoreductase YhhX
+[18:17:48] Modify product: Probable multidrug resistance protein EmrK => putative multidrug resistance protein EmrK
+[18:17:48] Modify product: Probable copper-binding protein PcoE => putative copper-binding protein PcoE
+[18:17:48] Modify product: Probable HTH-type transcriptional regulator YgaV => putative HTH-type transcriptional regulator YgaV
+[18:17:48] Modify product: Probable fimbrial subunit LpfE => putative fimbrial subunit LpfE
+[18:17:48] Modify product: Probable minor fimbrial subunit LpfD => putative minor fimbrial subunit LpfD
+[18:17:48] Modify product: Probable outer membrane usher protein LpfC' => putative outer membrane usher protein LpfC'
+[18:17:48] Modify product: Probable fimbrial chaperone LpfB => putative fimbrial chaperone LpfB
+[18:17:48] Modify product: Probable major fimbrial subunit LpfA => putative major fimbrial subunit LpfA
+[18:17:48] Modify product: Uncharacterized MFS-type transporter YhjX => putative MFS-type transporter YhjX
+[18:17:48] Modify product: Uncharacterized N-acetyltransferase YjaB => putative N-acetyltransferase YjaB
+[18:17:48] Modify product: Probable lipoprotein YiaD => putative lipoprotein YiaD
+[18:17:49] Modify product: Uncharacterized GST-like protein YibF => putative GST-like protein YibF
+[18:17:49] Modify product: Probable deoxyribonuclease RhsB => putative deoxyribonuclease RhsB
+[18:17:49] Modify product: Uncharacterized glycosyltransferase EpsJ => putative glycosyltransferase EpsJ
+[18:17:49] Modify product: Uncharacterized signaling protein CC_0091 => putative signaling protein
+[18:17:49] Modify product: Uncharacterized inner membrane transporter YedA => putative inner membrane transporter YedA
+[18:17:49] Modify product: Uncharacterized inner membrane transporter YicL => putative inner membrane transporter YicL
+[18:17:49] Modify product: Uncharacterized symporter YidK => putative symporter YidK
+[18:17:49] Modify product: Probable 2-dehydro-3-deoxygalactonokinase DgoK1 => putative 2-dehydro-3-deoxygalactonokinase DgoK1
+[18:17:49] Modify product: Uncharacterized fimbrial-like protein ElfG => putative fimbrial-like protein ElfG
+[18:17:49] Modify product: Probable outer membrane usher protein ElfC => putative outer membrane usher protein ElfC
+[18:17:49] Modify product: Probable transport protein HsrA => putative transport protein HsrA
+[18:17:49] Modify product: Probable ECA polymerase => putative ECA polymerase
+[18:17:49] Modify product: Probable transport protein YifK => putative transport protein YifK
+[18:17:49] Cleaned 246 /product names
+[18:17:49] Deleting unwanted file: PROKKA_06122017/sprot.faa
+[18:17:49] Deleting unwanted file: PROKKA_06122017/sprot.blast
+[18:17:51] There are still 1496 unannotated CDS left (started with 4982)
+[18:17:51] Will use hmmer3 to search against /home/adamklie/bin/prokka/bin/../db/hmm/HAMAP.hmm with 4 CPUs
+[18:17:51] Running: cat PROKKA_06122017\/HAMAP\.hmm\.faa | parallel --gnu --plain -j 4 --block 42001 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-06 --cpu 1 /home/adamklie/bin/prokka/bin/../db/hmm/HAMAP.hmm /dev/stdin > PROKKA_06122017\/HAMAP\.hmm\.hmmer3 2> /dev/null
+[18:38:02] Modify product: Uncharacterized Nudix hydrolase NudL => putative Nudix hydrolase NudL
+[18:38:02] Cleaned 1 /product names
+[18:38:02] Deleting unwanted file: PROKKA_06122017/HAMAP.hmm.faa
+[18:38:02] Deleting unwanted file: PROKKA_06122017/HAMAP.hmm.hmmer3
+[18:38:02] Labelling remaining 1422 proteins as 'hypothetical protein'
+[18:38:02] Possible /pseudo 'putative lipoprotein YajI' at NZ_HF572917.1 position 464854
+[18:38:02] Possible /pseudo 'Cold shock-like protein CspG' at NZ_HF572917.1 position 1117399
+[18:38:02] Possible /pseudo 'General stress protein 16U' at NZ_HF572917.1 position 1288950
+[18:38:02] Possible /pseudo 'General stress protein 16U' at NZ_HF572917.1 position 1292344
+[18:38:02] Possible /pseudo 'General stress protein 16U' at NZ_HF572917.1 position 1293351
+[18:38:02] Possible /pseudo 'Antigen 43' at NZ_HF572917.1 position 1297946
+[18:38:02] Possible /pseudo 'Hemolysin E, chromosomal' at NZ_HF572917.1 position 1427474
+[18:38:02] Possible /pseudo 'Hemolysin E, chromosomal' at NZ_HF572917.1 position 1427873
+[18:38:02] Possible /pseudo 'Small toxic polypeptide LdrD' at NZ_HF572917.1 position 1467293
+[18:38:02] Possible /pseudo 'Small toxic polypeptide LdrD' at NZ_HF572917.1 position 1467829
+[18:38:02] Possible /pseudo 'Formate dehydrogenase, nitrate-inducible, major subunit' at NZ_HF572917.1 position 1760686
+[18:38:02] Possible /pseudo 'putative diguanylate cyclase YedQ' at NZ_HF572917.1 position 2376836
+[18:38:02] Possible /pseudo 'D-tagatose-1,6-bisphosphate aldolase subunit GatZ' at NZ_HF572917.1 position 2569730
+[18:38:02] Possible /pseudo 'Protease ElaD' at NZ_HF572917.1 position 2765993
+[18:38:02] Possible /pseudo 'Glucarate dehydratase-related protein' at NZ_HF572917.1 position 3306839
+[18:38:02] Possible /pseudo 'tRNA pseudouridine synthase C' at NZ_HF572917.1 position 3309904
+[18:38:02] Possible /pseudo 'Surface presentation of antigens protein SpaS' at NZ_HF572917.1 position 3386750
+[18:38:02] Possible /pseudo 'Surface presentation of antigens protein SpaS' at NZ_HF572917.1 position 3387021
+[18:38:02] Possible /pseudo 'Surface presentation of antigens protein SpaO' at NZ_HF572917.1 position 3389791
+[18:38:02] Possible /pseudo 'Methylmalonyl-CoA mutase' at NZ_HF572917.1 position 3454892
+[18:38:02] Possible /pseudo 'Energy-coupling factor transporter ATP-binding protein EcfA1' at NZ_HF572917.1 position 3469652
+[18:38:02] Possible /pseudo 'Group II intron-encoded protein LtrA' at NZ_HF572917.1 position 3526357
+[18:38:02] Possible /pseudo 'putative FAD-linked oxidoreductase' at NZ_HF572917.1 position 3620057
+[18:38:02] Possible /pseudo 'Small toxic polypeptide LdrD' at NZ_HF572917.1 position 4214502
+[18:38:02] Possible /pseudo 'Small toxic polypeptide LdrD' at NZ_HF572917.1 position 4214985
+[18:38:02] Possible /pseudo 'Periplasmic alpha-amylase' at NZ_HF572917.1 position 4257886
+[18:38:02] Possible /pseudo '6-phospho-alpha-glucosidase' at NZ_HF572917.1 position 4432741
+[18:38:02] Possible /pseudo 'Cryptic beta-glucoside bgl operon antiterminator' at NZ_HF572917.1 position 4477525
+[18:38:02] Possible /pseudo 'Formate dehydrogenase-O major subunit' at NZ_HF572917.1 position 4663392
+[18:38:02] Possible /pseudo 'PTS system mannose-specific EIIBCA component' at NZ_HF572917.1 position 4670519
+[18:38:02] Possible /pseudo 'Formate dehydrogenase H' at NZ_HF572917.1 position 4886461
+[18:38:02] Found 3022 unique /gene codes.
+[18:38:02] Fixed 6 duplicate /gene - era_1 era_2 era_3 era_4 era_5 era_6
+[18:38:02] Fixed 3 duplicate /gene - gadX_1 gadX_2 gadX_3
+[18:38:02] Fixed 4 duplicate /gene - rbsC_1 rbsC_2 rbsC_3 rbsC_4
+[18:38:02] Fixed 2 duplicate /gene - php_1 php_2
+[18:38:02] Fixed 2 duplicate /gene - ybdO_1 ybdO_2
+[18:38:02] Fixed 3 duplicate /gene - tabA_1 tabA_2 tabA_3
+[18:38:02] Fixed 2 duplicate /gene - malS_1 malS_2
+[18:38:02] Fixed 2 duplicate /gene - ptsG_1 ptsG_2
+[18:38:02] Fixed 3 duplicate /gene - manZ_1 manZ_2 manZ_3
+[18:38:02] Fixed 2 duplicate /gene - mepS_1 mepS_2
+[18:38:02] Fixed 2 duplicate /gene - scpA_1 scpA_2
+[18:38:02] Fixed 5 duplicate /gene - xerD_1 xerD_2 xerD_3 xerD_4 xerD_5
+[18:38:02] Fixed 2 duplicate /gene - hemN_1 hemN_2
+[18:38:02] Fixed 2 duplicate /gene - kefF_1 kefF_2
+[18:38:02] Fixed 5 duplicate /gene - intS_1 intS_2 intS_3 intS_4 intS_5
+[18:38:02] Fixed 2 duplicate /gene - pspB_1 pspB_2
+[18:38:02] Fixed 3 duplicate /gene - potA_1 potA_2 potA_3
+[18:38:02] Fixed 2 duplicate /gene - yedA_1 yedA_2
+[18:38:02] Fixed 2 duplicate /gene - gatZ_1 gatZ_2
+[18:38:02] Fixed 3 duplicate /gene - hyfB_1 hyfB_2 hyfB_3
+[18:38:02] Fixed 3 duplicate /gene - malP_1 malP_2 malP_3
+[18:38:02] Fixed 3 duplicate /gene - esiB_1 esiB_2 esiB_3
+[18:38:02] Fixed 2 duplicate /gene - recD_1 recD_2
+[18:38:02] Fixed 2 duplicate /gene - osmY_1 osmY_2
+[18:38:02] Fixed 2 duplicate /gene - purR_1 purR_2
+[18:38:02] Fixed 2 duplicate /gene - tal_1 tal_2
+[18:38:02] Fixed 2 duplicate /gene - copA_1 copA_2
+[18:38:02] Fixed 2 duplicate /gene - dnaC_1 dnaC_2
+[18:38:02] Fixed 2 duplicate /gene - nuoL_1 nuoL_2
+[18:38:02] Fixed 2 duplicate /gene - hin_1 hin_2
+[18:38:02] Fixed 2 duplicate /gene - pitA_1 pitA_2
+[18:38:02] Fixed 3 duplicate /gene - emrE_1 emrE_2 emrE_3
+[18:38:02] Fixed 2 duplicate /gene - coaA_1 coaA_2
+[18:38:02] Fixed 3 duplicate /gene - bglH_1 bglH_2 bglH_3
+[18:38:02] Fixed 2 duplicate /gene - gfcB_1 gfcB_2
+[18:38:02] Fixed 2 duplicate /gene - ulaC_1 ulaC_2
+[18:38:02] Fixed 2 duplicate /gene - yiaJ_1 yiaJ_2
+[18:38:02] Fixed 2 duplicate /gene - cusF_1 cusF_2
+[18:38:02] Fixed 2 duplicate /gene - adhE_1 adhE_2
+[18:38:02] Fixed 2 duplicate /gene - ulaD_1 ulaD_2
+[18:38:02] Fixed 3 duplicate /gene - hlyE_1 hlyE_2 hlyE_3
+[18:38:02] Fixed 3 duplicate /gene - cysE_1 cysE_2 cysE_3
+[18:38:02] Fixed 3 duplicate /gene - proP_1 proP_2 proP_3
+[18:38:02] Fixed 2 duplicate /gene - ais_1 ais_2
+[18:38:02] Fixed 2 duplicate /gene - rclR_1 rclR_2
+[18:38:02] Fixed 2 duplicate /gene - fryB_1 fryB_2
+[18:38:02] Fixed 2 duplicate /gene - macA_1 macA_2
+[18:38:02] Fixed 2 duplicate /gene - yeaI_1 yeaI_2
+[18:38:02] Fixed 2 duplicate /gene - rhaS_1 rhaS_2
+[18:38:02] Fixed 2 duplicate /gene - glnM_1 glnM_2
+[18:38:02] Fixed 3 duplicate /gene - dmsB_1 dmsB_2 dmsB_3
+[18:38:02] Fixed 2 duplicate /gene - exbD_1 exbD_2
+[18:38:02] Fixed 3 duplicate /gene - fixX_1 fixX_2 fixX_3
+[18:38:02] Fixed 3 duplicate /gene - glnQ_1 glnQ_2 glnQ_3
+[18:38:02] Fixed 2 duplicate /gene - gspA_1 gspA_2
+[18:38:02] Fixed 2 duplicate /gene - elfC_1 elfC_2
+[18:38:02] Fixed 2 duplicate /gene - ccmH_1 ccmH_2
+[18:38:02] Fixed 2 duplicate /gene - yhaJ_1 yhaJ_2
+[18:38:02] Fixed 2 duplicate /gene - fdoG_1 fdoG_2
+[18:38:02] Fixed 5 duplicate /gene - dmlR_1 dmlR_2 dmlR_3 dmlR_4 dmlR_5
+[18:38:02] Fixed 2 duplicate /gene - rpsA_1 rpsA_2
+[18:38:02] Fixed 2 duplicate /gene - xdhA_1 xdhA_2
+[18:38:02] Fixed 2 duplicate /gene - mzrA_1 mzrA_2
+[18:38:02] Fixed 2 duplicate /gene - sucD_1 sucD_2
+[18:38:02] Fixed 4 duplicate /gene - glpR_1 glpR_2 glpR_3 glpR_4
+[18:38:02] Fixed 2 duplicate /gene - yajI_1 yajI_2
+[18:38:02] Fixed 2 duplicate /gene - fliP_1 fliP_2
+[18:38:02] Fixed 5 duplicate /gene - hyfA_1 hyfA_2 hyfA_3 hyfA_4 hyfA_5
+[18:38:02] Fixed 2 duplicate /gene - lutA_1 lutA_2
+[18:38:02] Fixed 2 duplicate /gene - cdsA_1 cdsA_2
+[18:38:02] Fixed 2 duplicate /gene - acrR_1 acrR_2
+[18:38:02] Fixed 2 duplicate /gene - rlmB_1 rlmB_2
+[18:38:02] Fixed 2 duplicate /gene - lon_1 lon_2
+[18:38:02] Fixed 2 duplicate /gene - afr_1 afr_2
+[18:38:02] Fixed 2 duplicate /gene - epsG_1 epsG_2
+[18:38:02] Fixed 2 duplicate /gene - cusA_1 cusA_2
+[18:38:02] Fixed 2 duplicate /gene - ygaV_1 ygaV_2
+[18:38:02] Fixed 2 duplicate /gene - garR_1 garR_2
+[18:38:02] Fixed 3 duplicate /gene - clpB_1 clpB_2 clpB_3
+[18:38:02] Fixed 2 duplicate /gene - yccS_1 yccS_2
+[18:38:02] Fixed 2 duplicate /gene - gstB_1 gstB_2
+[18:38:02] Fixed 2 duplicate /gene - pcoC_1 pcoC_2
+[18:38:02] Fixed 3 duplicate /gene - icsA_1 icsA_2 icsA_3
+[18:38:02] Fixed 2 duplicate /gene - cirA_1 cirA_2
+[18:38:02] Fixed 7 duplicate /gene - rhsC_1 rhsC_2 rhsC_3 rhsC_4 rhsC_5 rhsC_6 rhsC_7
+[18:38:02] Fixed 3 duplicate /gene - yedQ_1 yedQ_2 yedQ_3
+[18:38:02] Fixed 3 duplicate /gene - tmk_1 tmk_2 tmk_3
+[18:38:02] Fixed 2 duplicate /gene - lsrK_1 lsrK_2
+[18:38:02] Fixed 2 duplicate /gene - oxyR_1 oxyR_2
+[18:38:02] Fixed 2 duplicate /gene - rob_1 rob_2
+[18:38:02] Fixed 3 duplicate /gene - cysH_1 cysH_2 cysH_3
+[18:38:02] Fixed 2 duplicate /gene - rspA_1 rspA_2
+[18:38:02] Fixed 2 duplicate /gene - chbA_1 chbA_2
+[18:38:02] Fixed 2 duplicate /gene - yhjE_1 yhjE_2
+[18:38:02] Fixed 2 duplicate /gene - garP_1 garP_2
+[18:38:02] Fixed 2 duplicate /gene - fdnG_1 fdnG_2
+[18:38:02] Fixed 2 duplicate /gene - arcC1_1 arcC1_2
+[18:38:02] Fixed 2 duplicate /gene - ybgD_1 ybgD_2
+[18:38:02] Fixed 2 duplicate /gene - caiT_1 caiT_2
+[18:38:02] Fixed 2 duplicate /gene - hycG_1 hycG_2
+[18:38:02] Fixed 3 duplicate /gene - rbsA_1 rbsA_2 rbsA_3
+[18:38:02] Fixed 2 duplicate /gene - fdhF_1 fdhF_2
+[18:38:02] Fixed 2 duplicate /gene - deoB_1 deoB_2
+[18:38:02] Fixed 2 duplicate /gene - yahA_1 yahA_2
+[18:38:02] Fixed 2 duplicate /gene - nagA_1 nagA_2
+[18:38:02] Fixed 2 duplicate /gene - emrK_1 emrK_2
+[18:38:02] Fixed 2 duplicate /gene - yhdN_1 yhdN_2
+[18:38:02] Fixed 2 duplicate /gene - fbaA_1 fbaA_2
+[18:38:02] Fixed 2 duplicate /gene - lldR_1 lldR_2
+[18:38:02] Fixed 2 duplicate /gene - icaB_1 icaB_2
+[18:38:02] Fixed 2 duplicate /gene - yeeA_1 yeeA_2
+[18:38:02] Fixed 2 duplicate /gene - dbpA_1 dbpA_2
+[18:38:02] Fixed 5 duplicate /gene - cbeA_1 cbeA_2 cbeA_3 cbeA_4 cbeA_5
+[18:38:02] Fixed 2 duplicate /gene - dnaK_1 dnaK_2
+[18:38:02] Fixed 2 duplicate /gene - mepH_1 mepH_2
+[18:38:02] Fixed 2 duplicate /gene - arsC_1 arsC_2
+[18:38:02] Fixed 3 duplicate /gene - ptsI_1 ptsI_2 ptsI_3
+[18:38:02] Fixed 2 duplicate /gene - gutB_1 gutB_2
+[18:38:02] Fixed 3 duplicate /gene - mngR_1 mngR_2 mngR_3
+[18:38:02] Fixed 2 duplicate /gene - acs_1 acs_2
+[18:38:02] Fixed 2 duplicate /gene - pqiB_1 pqiB_2
+[18:38:02] Fixed 5 duplicate /gene - bhsA_1 bhsA_2 bhsA_3 bhsA_4 bhsA_5
+[18:38:02] Fixed 2 duplicate /gene - focC_1 focC_2
+[18:38:02] Fixed 2 duplicate /gene - ulaE_1 ulaE_2
+[18:38:02] Fixed 2 duplicate /gene - tehB_1 tehB_2
+[18:38:02] Fixed 3 duplicate /gene - gntR_1 gntR_2 gntR_3
+[18:38:02] Fixed 2 duplicate /gene - fes_1 fes_2
+[18:38:02] Fixed 2 duplicate /gene - ftnA_1 ftnA_2
+[18:38:02] Fixed 2 duplicate /gene - spaO_1 spaO_2
+[18:38:02] Fixed 3 duplicate /gene - manX_1 manX_2 manX_3
+[18:38:02] Fixed 2 duplicate /gene - nagC_1 nagC_2
+[18:38:02] Fixed 2 duplicate /gene - ail_1 ail_2
+[18:38:02] Fixed 2 duplicate /gene - tsaR_1 tsaR_2
+[18:38:02] Fixed 2 duplicate /gene - xylA_1 xylA_2
+[18:38:02] Fixed 2 duplicate /gene - aspT_1 aspT_2
+[18:38:02] Fixed 2 duplicate /gene - appA_1 appA_2
+[18:38:02] Fixed 2 duplicate /gene - ygdR_1 ygdR_2
+[18:38:02] Fixed 2 duplicate /gene - dkgB_1 dkgB_2
+[18:38:02] Fixed 2 duplicate /gene - hha_1 hha_2
+[18:38:02] Fixed 2 duplicate /gene - silE_1 silE_2
+[18:38:02] Fixed 2 duplicate /gene - mtlA_1 mtlA_2
+[18:38:02] Fixed 2 duplicate /gene - psuK_1 psuK_2
+[18:38:02] Fixed 2 duplicate /gene - mdh_1 mdh_2
+[18:38:02] Fixed 4 duplicate /gene - ompX_1 ompX_2 ompX_3 ompX_4
+[18:38:02] Fixed 2 duplicate /gene - lolD_1 lolD_2
+[18:38:02] Fixed 2 duplicate /gene - lgoT_1 lgoT_2
+[18:38:02] Fixed 2 duplicate /gene - iscA_1 iscA_2
+[18:38:02] Fixed 2 duplicate /gene - epsE_1 epsE_2
+[18:38:02] Fixed 2 duplicate /gene - aaeB_1 aaeB_2
+[18:38:02] Fixed 2 duplicate /gene - glpE_1 glpE_2
+[18:38:02] Fixed 2 duplicate /gene - acrB_1 acrB_2
+[18:38:02] Fixed 2 duplicate /gene - ydcP_1 ydcP_2
+[18:38:02] Fixed 2 duplicate /gene - lsrD_1 lsrD_2
+[18:38:02] Fixed 5 duplicate /gene - gltC_1 gltC_2 gltC_3 gltC_4 gltC_5
+[18:38:02] Fixed 4 duplicate /gene - vgrG1_1 vgrG1_2 vgrG1_3 vgrG1_4
+[18:38:02] Fixed 2 duplicate /gene - rep_1 rep_2
+[18:38:02] Fixed 2 duplicate /gene - ugpC_1 ugpC_2
+[18:38:02] Fixed 2 duplicate /gene - fabG_1 fabG_2
+[18:38:02] Fixed 3 duplicate /gene - intQ_1 intQ_2 intQ_3
+[18:38:02] Fixed 2 duplicate /gene - phoE_1 phoE_2
+[18:38:02] Fixed 2 duplicate /gene - lppC_1 lppC_2
+[18:38:02] Fixed 2 duplicate /gene - proS_1 proS_2
+[18:38:02] Fixed 4 duplicate /gene - rusA_1 rusA_2 rusA_3 rusA_4
+[18:38:02] Fixed 2 duplicate /gene - fucP_1 fucP_2
+[18:38:02] Fixed 2 duplicate /gene - lacA_1 lacA_2
+[18:38:02] Fixed 2 duplicate /gene - sgrR_1 sgrR_2
+[18:38:02] Fixed 4 duplicate /gene - radD_1 radD_2 radD_3 radD_4
+[18:38:02] Fixed 2 duplicate /gene - rapA_1 rapA_2
+[18:38:02] Fixed 2 duplicate /gene - bglF_1 bglF_2
+[18:38:02] Fixed 2 duplicate /gene - fdnH_1 fdnH_2
+[18:38:02] Fixed 2 duplicate /gene - ampH_1 ampH_2
+[18:38:02] Fixed 2 duplicate /gene - yagU_1 yagU_2
+[18:38:02] Fixed 2 duplicate /gene - yehB_1 yehB_2
+[18:38:02] Fixed 2 duplicate /gene - etfB_1 etfB_2
+[18:38:02] Fixed 2 duplicate /gene - yjaB_1 yjaB_2
+[18:38:02] Fixed 3 duplicate /gene - srmB_1 srmB_2 srmB_3
+[18:38:02] Fixed 3 duplicate /gene - cusC_1 cusC_2 cusC_3
+[18:38:02] Fixed 3 duplicate /gene - tfaE_1 tfaE_2 tfaE_3
+[18:38:02] Fixed 2 duplicate /gene - truC_1 truC_2
+[18:38:02] Fixed 2 duplicate /gene - msbA_1 msbA_2
+[18:38:02] Fixed 2 duplicate /gene - argA_1 argA_2
+[18:38:02] Fixed 3 duplicate /gene - manP_1 manP_2 manP_3
+[18:38:02] Fixed 2 duplicate /gene - cusB_1 cusB_2
+[18:38:02] Fixed 2 duplicate /gene - pic_1 pic_2
+[18:38:02] Fixed 2 duplicate /gene - bioD1_1 bioD1_2
+[18:38:02] Fixed 3 duplicate /gene - ydcV_1 ydcV_2 ydcV_3
+[18:38:02] Fixed 2 duplicate /gene - argE_1 argE_2
+[18:38:02] Fixed 2 duplicate /gene - tusA_1 tusA_2
+[18:38:02] Fixed 2 duplicate /gene - bvgA_1 bvgA_2
+[18:38:02] Fixed 2 duplicate /gene - cmpR_1 cmpR_2
+[18:38:02] Fixed 3 duplicate /gene - hcpA_1 hcpA_2 hcpA_3
+[18:38:02] Fixed 2 duplicate /gene - glmU_1 glmU_2
+[18:38:02] Fixed 2 duplicate /gene - mipA_1 mipA_2
+[18:38:02] Fixed 2 duplicate /gene - deoR_1 deoR_2
+[18:38:02] Fixed 2 duplicate /gene - dapH_1 dapH_2
+[18:38:02] Fixed 3 duplicate /gene - gltD_1 gltD_2 gltD_3
+[18:38:02] Fixed 2 duplicate /gene - lacY_1 lacY_2
+[18:38:02] Fixed 2 duplicate /gene - cusR_1 cusR_2
+[18:38:02] Fixed 2 duplicate /gene - artM_1 artM_2
+[18:38:02] Fixed 3 duplicate /gene - pncC_1 pncC_2 pncC_3
+[18:38:02] Fixed 2 duplicate /gene - oppF_1 oppF_2
+[18:38:02] Fixed 2 duplicate /gene - ndhF_1 ndhF_2
+[18:38:02] Fixed 3 duplicate /gene - cysJ_1 cysJ_2 cysJ_3
+[18:38:02] Fixed 5 duplicate /gene - rrrD_1 rrrD_2 rrrD_3 rrrD_4 rrrD_5
+[18:38:02] Fixed 2 duplicate /gene - epsF_1 epsF_2
+[18:38:02] Fixed 2 duplicate /gene - lpp_1 lpp_2
+[18:38:02] Fixed 2 duplicate /gene - ccmF_1 ccmF_2
+[18:38:02] Fixed 2 duplicate /gene - yahB_1 yahB_2
+[18:38:02] Fixed 6 duplicate /gene - ldrD_1 ldrD_2 ldrD_3 ldrD_4 ldrD_5 ldrD_6
+[18:38:02] Fixed 2 duplicate /gene - elfG_1 elfG_2
+[18:38:02] Fixed 2 duplicate /gene - elaD_1 elaD_2
+[18:38:02] Fixed 3 duplicate /gene - ygcS_1 ygcS_2 ygcS_3
+[18:38:02] Fixed 2 duplicate /gene - bglA_1 bglA_2
+[18:38:02] Fixed 2 duplicate /gene - adrB_1 adrB_2
+[18:38:02] Fixed 2 duplicate /gene - clcD_1 clcD_2
+[18:38:02] Fixed 4 duplicate /gene - corC_1 corC_2 corC_3 corC_4
+[18:38:02] Fixed 2 duplicate /gene - ftsA_1 ftsA_2
+[18:38:02] Fixed 2 duplicate /gene - ssuC_1 ssuC_2
+[18:38:02] Fixed 2 duplicate /gene - fic_1 fic_2
+[18:38:02] Fixed 2 duplicate /gene - ompD_1 ompD_2
+[18:38:02] Fixed 2 duplicate /gene - galM_1 galM_2
+[18:38:02] Fixed 2 duplicate /gene - mhpA_1 mhpA_2
+[18:38:02] Fixed 2 duplicate /gene - fimA_1 fimA_2
+[18:38:02] Fixed 3 duplicate /gene - papC_1 papC_2 papC_3
+[18:38:02] Fixed 2 duplicate /gene - glcC_1 glcC_2
+[18:38:02] Fixed 2 duplicate /gene - kefC_1 kefC_2
+[18:38:02] Fixed 2 duplicate /gene - nuoI_1 nuoI_2
+[18:38:02] Fixed 2 duplicate /gene - ulaA_1 ulaA_2
+[18:38:02] Fixed 2 duplicate /gene - kdgK_1 kdgK_2
+[18:38:02] Fixed 2 duplicate /gene - sbmC_1 sbmC_2
+[18:38:02] Fixed 2 duplicate /gene - dinG_1 dinG_2
+[18:38:02] Fixed 3 duplicate /gene - cynR_1 cynR_2 cynR_3
+[18:38:02] Fixed 2 duplicate /gene - gsiA_1 gsiA_2
+[18:38:02] Fixed 3 duplicate /gene - folP_1 folP_2 folP_3
+[18:38:02] Fixed 2 duplicate /gene - epsM_1 epsM_2
+[18:38:02] Fixed 3 duplicate /gene - cutC_1 cutC_2 cutC_3
+[18:38:02] Fixed 7 duplicate /gene - yceD_1 yceD_2 yceD_3 yceD_4 yceD_5 yceD_6 yceD_7
+[18:38:02] Fixed 3 duplicate /gene - rhsB_1 rhsB_2 rhsB_3
+[18:38:02] Fixed 3 duplicate /gene - kilR_1 kilR_2 kilR_3
+[18:38:02] Fixed 2 duplicate /gene - acpP_1 acpP_2
+[18:38:02] Fixed 2 duplicate /gene - lptG_1 lptG_2
+[18:38:02] Fixed 2 duplicate /gene - hflK_1 hflK_2
+[18:38:02] Fixed 3 duplicate /gene - rbsK_1 rbsK_2 rbsK_3
+[18:38:02] Fixed 2 duplicate /gene - exbB_1 exbB_2
+[18:38:02] Fixed 4 duplicate /gene - sppA_1 sppA_2 sppA_3 sppA_4
+[18:38:02] Fixed 3 duplicate /gene - crfC_1 crfC_2 crfC_3
+[18:38:02] Fixed 2 duplicate /gene - prfA_1 prfA_2
+[18:38:02] Fixed 5 duplicate /gene - cbtA_1 cbtA_2 cbtA_3 cbtA_4 cbtA_5
+[18:38:02] Fixed 2 duplicate /gene - lptB_1 lptB_2
+[18:38:02] Fixed 2 duplicate /gene - dmsC_1 dmsC_2
+[18:38:02] Fixed 2 duplicate /gene - murR_1 murR_2
+[18:38:02] Fixed 2 duplicate /gene - slp_1 slp_2
+[18:38:02] Fixed 2 duplicate /gene - glrR_1 glrR_2
+[18:38:02] Fixed 2 duplicate /gene - hypA_1 hypA_2
+[18:38:02] Fixed 2 duplicate /gene - higA-2_1 higA-2_2
+[18:38:02] Fixed 3 duplicate /gene - rimO_1 rimO_2 rimO_3
+[18:38:02] Fixed 2 duplicate /gene - gudX_1 gudX_2
+[18:38:02] Fixed 2 duplicate /gene - ydhP_1 ydhP_2
+[18:38:02] Fixed 3 duplicate /gene - etfA_1 etfA_2 etfA_3
+[18:38:02] Fixed 2 duplicate /gene - higA_1 higA_2
+[18:38:02] Fixed 3 duplicate /gene - por_1 por_2 por_3
+[18:38:02] Fixed 3 duplicate /gene - spaS_1 spaS_2 spaS_3
+[18:38:02] Fixed 2 duplicate /gene - mglA_1 mglA_2
+[18:38:02] Fixed 2 duplicate /gene - aglB_1 aglB_2
+[18:38:02] Fixed 2 duplicate /gene - lptF_1 lptF_2
+[18:38:02] Fixed 2 duplicate /gene - bioF_1 bioF_2
+[18:38:02] Fixed 2 duplicate /gene - alx_1 alx_2
+[18:38:02] Fixed 2 duplicate /gene - gntK_1 gntK_2
+[18:38:02] Fixed 2 duplicate /gene - dinI_1 dinI_2
+[18:38:02] Fixed 2 duplicate /gene - oppD_1 oppD_2
+[18:38:02] Fixed 2 duplicate /gene - bepA_1 bepA_2
+[18:38:02] Fixed 3 duplicate /gene - cusS_1 cusS_2 cusS_3
+[18:38:02] Fixed 2 duplicate /gene - tqsA_1 tqsA_2
+[18:38:02] Fixed 3 duplicate /gene - chuR_1 chuR_2 chuR_3
+[18:38:02] Fixed 6 duplicate /gene - ltrA_1 ltrA_2 ltrA_3 ltrA_4 ltrA_5 ltrA_6
+[18:38:02] Fixed 2 duplicate /gene - pyrE_1 pyrE_2
+[18:38:02] Fixed 2 duplicate /gene - yfgF_1 yfgF_2
+[18:38:02] Fixed 2 duplicate /gene - ubiE_1 ubiE_2
+[18:38:02] Fixed 2 duplicate /gene - dpnA_1 dpnA_2
+[18:38:02] Fixed 2 duplicate /gene - dcuD_1 dcuD_2
+[18:38:02] Fixed 2 duplicate /gene - ydjZ_1 ydjZ_2
+[18:38:02] Fixed 2 duplicate /gene - rhtC_1 rhtC_2
+[18:38:02] Fixed 2 duplicate /gene - gpr_1 gpr_2
+[18:38:02] Fixed 2 duplicate /gene - lsrB_1 lsrB_2
+[18:38:02] Fixed 2 duplicate /gene - dcuA_1 dcuA_2
+[18:38:02] Fixed 2 duplicate /gene - yhdJ_1 yhdJ_2
+[18:38:02] Fixed 2 duplicate /gene - pduV_1 pduV_2
+[18:38:02] Fixed 2 duplicate /gene - topA_1 topA_2
+[18:38:02] Fixed 3 duplicate /gene - lexA_1 lexA_2 lexA_3
+[18:38:02] Fixed 2 duplicate /gene - bglG_1 bglG_2
+[18:38:02] Fixed 2 duplicate /gene - lapB_1 lapB_2
+[18:38:02] Fixed 3 duplicate /gene - pdhR_1 pdhR_2 pdhR_3
+[18:38:02] Fixed 2 duplicate /gene - loiP_1 loiP_2
+[18:38:02] Fixed 2 duplicate /gene - fucA_1 fucA_2
+[18:38:02] Fixed 5 duplicate /gene - flu_1 flu_2 flu_3 flu_4 flu_5
+[18:38:02] Fixed 3 duplicate /gene - intA_1 intA_2 intA_3
+[18:38:02] Fixed 2 duplicate /gene - nlpD_1 nlpD_2
+[18:38:02] Fixed 2 duplicate /gene - aaeA_1 aaeA_2
+[18:38:02] Fixed 2 duplicate /gene - nanK_1 nanK_2
+[18:38:02] Fixed 2 duplicate /gene - caiA_1 caiA_2
+[18:38:02] Fixed 2 duplicate /gene - mepM_1 mepM_2
+[18:38:02] Fixed 2 duplicate /gene - xerC_1 xerC_2
+[18:38:02] Fixed 5 duplicate /gene - klcA_1 klcA_2 klcA_3 klcA_4 klcA_5
+[18:38:02] Fixed 4 duplicate /gene - recF_1 recF_2 recF_3 recF_4
+[18:38:02] Fixed 2 duplicate /gene - yccM_1 yccM_2
+[18:38:02] Fixed 3 duplicate /gene - nagB_1 nagB_2 nagB_3
+[18:38:02] Fixed 2 duplicate /gene - trxA_1 trxA_2
+[18:38:02] Fixed 2 duplicate /gene - yjiE_1 yjiE_2
+[18:38:02] Fixed 2 duplicate /gene - mtlR_1 mtlR_2
+[18:38:02] Fixed 2 duplicate /gene - ydjE_1 ydjE_2
+[18:38:02] Fixed 2 duplicate /gene - yiaW_1 yiaW_2
+[18:38:02] Fixed 2 duplicate /gene - higB-2_1 higB-2_2
+[18:38:02] Fixed 2 duplicate /gene - narX_1 narX_2
+[18:38:02] Fixed 2 duplicate /gene - recE_1 recE_2
+[18:38:02] Fixed 2 duplicate /gene - narL_1 narL_2
+[18:38:02] Fixed 2 duplicate /gene - cspG_1 cspG_2
+[18:38:02] Fixed 2 duplicate /gene - cysW_1 cysW_2
+[18:38:02] Fixed 2 duplicate /gene - ulaB_1 ulaB_2
+[18:38:02] Fixed 5 duplicate /gene - srlR_1 srlR_2 srlR_3 srlR_4 srlR_5
+[18:38:02] Fixed 2 duplicate /gene - ydeH_1 ydeH_2
+[18:38:02] Fixed 2 duplicate /gene - ecpR_1 ecpR_2
+[18:38:02] Fixed 3 duplicate /gene - hcaR_1 hcaR_2 hcaR_3
+[18:38:02] Fixed 2 duplicate /gene - fecA_1 fecA_2
+[18:38:02] Fixed 5 duplicate /gene - nanS_1 nanS_2 nanS_3 nanS_4 nanS_5
+[18:38:02] Fixed 3 duplicate /gene - tnsB_1 tnsB_2 tnsB_3
+[18:38:02] Fixed 2 duplicate /gene - ompF_1 ompF_2
+[18:38:02] Fixed 2 duplicate /gene - chbC_1 chbC_2
+[18:38:02] Fixed 2 duplicate /gene - agaC_1 agaC_2
+[18:38:02] Fixed 2 duplicate /gene - rhaR_1 rhaR_2
+[18:38:02] Fixed 2 duplicate /gene - ydhX_1 ydhX_2
+[18:38:02] Fixed 2 duplicate /gene - kduD_1 kduD_2
+[18:38:02] Fixed 2 duplicate /gene - cysA_1 cysA_2
+[18:38:02] Fixed 3 duplicate /gene - pgrR_1 pgrR_2 pgrR_3
+[18:38:02] Fixed 2 duplicate /gene - ecfA1_1 ecfA1_2
+[18:38:02] Fixed 2 duplicate /gene - rtcB_1 rtcB_2
+[18:38:02] Fixed 2 duplicate /gene - flhA_1 flhA_2
+[18:38:02] Fixed 336 colliding /gene names.
+[18:38:02] Adding /locus_tag identifiers
+[18:38:02] Assigned 5076 locus_tags to CDS and RNA features.
+[18:38:02] Writing outputs to PROKKA_06122017/
+[18:38:13] Generating annotation statistics file
+[18:38:13] Generating Genbank and Sequin files
+[18:38:13] Running: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.12 from https://github.com/tseemann/prokka' -Z PROKKA_06122017\/PROKKA_06122017\.err -i PROKKA_06122017\/PROKKA_06122017\.fsa 2> /dev/null
+[18:38:27] Deleting unwanted file: PROKKA_06122017/errorsummary.val
+[18:38:27] Deleting unwanted file: PROKKA_06122017/PROKKA_06122017.dr
+[18:38:27] Deleting unwanted file: PROKKA_06122017/PROKKA_06122017.fixedproducts
+[18:38:27] Deleting unwanted file: PROKKA_06122017/PROKKA_06122017.ecn
+[18:38:27] Deleting unwanted file: PROKKA_06122017/PROKKA_06122017.val
+[18:38:27] Repairing broken .GBK output that tbl2asn produces...
+[18:38:27] Running: sed 's/COORDINATES: profile/COORDINATES:profile/' < PROKKA_06122017\/PROKKA_06122017\.gbf > PROKKA_06122017\/PROKKA_06122017\.gbk
+[18:38:28] Deleting unwanted file: PROKKA_06122017/PROKKA_06122017.gbf
+[18:38:28] Output files:
+[18:38:28] PROKKA_06122017/PROKKA_06122017.err
+[18:38:28] PROKKA_06122017/PROKKA_06122017.faa
+[18:38:28] PROKKA_06122017/PROKKA_06122017.ffn
+[18:38:28] PROKKA_06122017/PROKKA_06122017.fna
+[18:38:28] PROKKA_06122017/PROKKA_06122017.fsa
+[18:38:28] PROKKA_06122017/PROKKA_06122017.gbk
+[18:38:28] PROKKA_06122017/PROKKA_06122017.gff
+[18:38:28] PROKKA_06122017/PROKKA_06122017.log
+[18:38:28] PROKKA_06122017/PROKKA_06122017.sqn
+[18:38:28] PROKKA_06122017/PROKKA_06122017.tbl
+[18:38:28] PROKKA_06122017/PROKKA_06122017.tsv
+[18:38:28] PROKKA_06122017/PROKKA_06122017.txt
+[18:38:28] Annotation finished successfully.
+[18:38:28] Walltime used: 26.73 minutes
+[18:38:28] If you use this result please cite the Prokka paper:
+[18:38:28] Seemann T (2014) Prokka: rapid prokaryotic genome annotation. Bioinformatics. 30(14):2068-9.
+[18:38:28] Type 'prokka --citation' for more details.
+[18:38:28] Thank you, come again.
+es processed.
+[afs] 0:100000.000 1:0.000 2:0.000
+[bcfview] 5200000 sites processed.
+[afs] 0:99988.978 1:9.128 2:1.894
+[afs] 0:79294.987 1:0.011 2:0.002

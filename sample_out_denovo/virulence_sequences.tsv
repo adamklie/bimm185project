@@ -1,0 +1,29 @@
+Hit	E-Value	Contig	PROKKA Annotation
+pic:6:FN554766	2.04125e-147	PDMBHFNK_00106	hypothetical protein
+pic:4:AF097644	0.0	PDMBHFNK_00107	hypothetical protein
+stx2B:27:AE005174:a	1.9843e-142	PDMBHFNK_00175	Shiga toxin subunit B
+stx2A:70:AY143336:a	0.0	PDMBHFNK_00176	Shiga toxin subunit A
+ORF4:2:AFRH01000026	0.0	PDMBHFNK_00228	Isopentenyl-diphosphate Delta-isomerase
+ORF3:2:HE610901	0.0	PDMBHFNK_00229	hypothetical protein
+gad:38:CP003289	0.0	PDMBHFNK_00245	hypothetical protein
+clpc:1:NC_003210.1	1.87273e-07	PDMBHFNK_00782	Chaperone protein ClpB
+aatA:2:AFRH01000026	0.0	PDMBHFNK_00791	hypothetical protein
+mchB:1:AE014075	2.99053e-20	PDMBHFNK_01232	Microcin H47 immunity protein MchI
+mchB:1:AE014075	8.52381e-32	PDMBHFNK_01233	hypothetical protein
+capU:5:CU928145	0.0	PDMBHFNK_01269	D-inositol 3-phosphate glycosyltransferase
+mchC:5:CP003289	0.0	PDMBHFNK_01595	hypothetical protein
+sigA:2:AE005674	1.29551e-87	PDMBHFNK_01676	hypothetical protein
+sepA:6:CP003299	0.0	PDMBHFNK_01718	Serine protease SepA autotransporter
+lpfA:6:CU928145	0.0	PDMBHFNK_01797	putative major fimbrial subunit LpfA
+sepA:6:CP003299	0.0	PDMBHFNK_01980	hypothetical protein
+aggA:1:AFRH01000026	0.0	PDMBHFNK_02091	hypothetical protein
+aggB:2:AFRH01000026	1.00143e-155	PDMBHFNK_02092	hypothetical protein
+aggC:1:U12894	0.0	PDMBHFNK_02093	F1 capsule-anchoring protein
+sigA:2:AE005674	9.51768e-63	PDMBHFNK_02474	Serine protease sat autotransporter
+aaiC:3:cp003301	0.0	PDMBHFNK_03150	hypothetical protein
+aggR:5:55989	0.0	PDMBHFNK_03609	CFA/I fimbrial subunit D
+iha:12:CP003289	0.0	PDMBHFNK_03849	Colicin I receptor
+pic:6:FN554766	4.64348e-66	PDMBHFNK_03959	Serine protease pic autotransporter
+mchF:3:CP003301	0.0	PDMBHFNK_04054	Leukotoxin export ATP-binding protein LtxB
+sigA:2:AE005674	1.08947e-175	PDMBHFNK_04334	hypothetical protein
+aar:12:SSI_AA784	3.26765e-104	PDMBHFNK_04689	hypothetical protein

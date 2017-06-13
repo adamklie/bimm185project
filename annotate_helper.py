@@ -117,8 +117,4 @@ def get16S(rnammer_out_filepath):
 			continue
 		no_duplicates_ids.append(ids)
 		ids_set.add(ids)
-	return (no_duplicates_ids, top_hit_name)
-
-#testing
-#blastn("./velvet_out/contigs.fa", "./databases/rnammer.fsa")
-#get16S("rnammer.xml")
+	return (no_duplicates_ids, best_hit_rna)
